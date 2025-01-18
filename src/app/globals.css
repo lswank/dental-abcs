@@ -3,19 +3,130 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground-rgb: 255, 255, 255;
+    --background-rgb: 0, 0, 0;
   }
 }
 
+/* Language-specific font settings */
+:lang(zh) {
+  font-family: var(--font-noto-sans-sc);
+}
+
+:lang(ja) {
+  font-family: var(--font-noto-sans-jp);
+}
+
+:lang(ko) {
+  font-family: var(--font-noto-sans-kr);
+}
+
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  overflow-x: hidden;
+}
+
+/* Smooth scrolling for the entire site */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom styles for our book */
+.prose {
+  max-width: 65ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Hide scrollbar but keep functionality */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Optional: show a thin scrollbar on hover */
+@media (hover: hover) {
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+  }
+}
+
+/* Snap Scrolling */
+.scroll-container {
+  @apply h-screen overflow-y-auto snap-y snap-mandatory;
+  scroll-behavior: smooth;
+}
+
+.snap-page {
+  @apply min-h-screen snap-start snap-always;
+}
+
+/* Home Icon */
+.home-icon {
+  @apply fixed top-4 left-4 z-50 p-2 rounded-full 
+    bg-dental-blue/10 hover:bg-dental-blue/20 
+    dark:bg-dark-dental-blue/20 dark:hover:bg-dark-dental-blue/30
+    transition-colors duration-200;
+}
+
+.home-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
+@keyframes pulse-slow {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 2s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 2s ease-in-out infinite;
+}
+
+/* Gradients */
+.bg-gradient-dental {
+  @apply bg-gradient-to-b from-dental-blue-light/30 to-white;
+}
+
+.dark .bg-gradient-dental {
+  @apply from-dark-dental-blue-dark/30 to-dark-bg-primary;
+}
+
+.bg-dark-gradient-dental {
+  @apply bg-gradient-to-b from-dark-dental-blue-dark/30 to-dark-bg-primary;
 }

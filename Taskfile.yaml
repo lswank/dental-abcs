@@ -1,0 +1,177 @@
+version: '3'
+
+vars:
+  NODE_ENV: development
+  PORT: 3000
+  ELEVENLABS_API_KEY: '{{.ELEVENLABS_API_KEY | default ""}}'
+
+tasks:
+  default:
+    cmds:
+      - task: dev
+    silent: true
+
+  install:
+    desc: Install all dependencies
+    cmds:
+      - npm install
+    sources:
+      - package.json
+      - package-lock.json
+    generates:
+      - node_modules/**/*
+    
+  dev:
+    desc: Start development server
+    deps: [install]
+    cmds:
+      - npm run dev -- -p {{.PORT}}
+    env:
+      NODE_ENV: development
+    
+  verify:
+    desc: Verify the development server is running
+    cmds:
+      - |
+        echo "Waiting for server to start..."
+        for i in {1..30}; do
+          if curl -s http://localhost:{{.PORT}} > /dev/null; then
+            echo "Server is running!"
+            exit 0
+          fi
+          sleep 1
+        done
+        echo "Server failed to start within 30 seconds"
+        exit 1
+      - lsof -i :{{.PORT}}
+
+  monitor:
+    desc: Monitor application logs and health
+    cmds:
+      - |
+        echo "Starting monitoring..."
+        while true; do
+          status=$(curl -s -o /dev/null -w "%{http_code}" http://localhost:{{.PORT}})
+          echo "$(date '+%Y-%m-%d %H:%M:%S') - Status: $status"
+          sleep 30
+        done
+    ignore_error: true
+
+  logs:
+    desc: Watch application logs
+    cmds:
+      - |
+        echo "Watching Next.js development logs..."
+        if [ -f ".next/trace" ]; then
+          tail -f .next/trace
+        else
+          echo "No log files found. Start the development server first."
+          exit 1
+        fi
+
+  generate-audio:
+    desc: Generate audio files for all languages
+    vars:
+      LANG: '{{.LANG | default "all"}}'
+      ELEVENLABS_API_KEY: '{{.ELEVENLABS_API_KEY | default ""}}'
+    cmds:
+      - |
+        # Try to read from .env.local if no API key provided
+        if [ -z "$ELEVENLABS_API_KEY" ] && [ -f ".env.local" ]; then
+          export $(grep -v '^#' .env.local | grep ELEVENLABS_API_KEY)
+        fi
+        
+        if [ -z "$ELEVENLABS_API_KEY" ]; then
+          echo "Error: ELEVENLABS_API_KEY is not set"
+          echo "Either set in .env.local or run with: task generate-audio ELEVENLABS_API_KEY=your_key"
+          exit 1
+        fi
+        
+        # Create necessary directories
+        mkdir -p public/audio
+        
+        # Run the audio generation script
+        node scripts/generate-audio.js \
+          --api-key=$ELEVENLABS_API_KEY \
+          --lang={{.LANG}} \
+          --config=elevenlabs-prefs.yaml \
+          --metadata=public/audio/metadata.json \
+          --output-dir=public/audio
+    env:
+      ELEVENLABS_API_KEY: '{{.ELEVENLABS_API_KEY}}'
+
+  generate-audio-lang:
+    desc: Generate audio for a specific language
+    cmds:
+      - task: generate-audio
+        vars:
+          LANG: '{{.CLI_ARGS}}'
+
+  build:
+    desc: Build the production version
+    deps: [install]
+    cmds:
+      - npm run build
+    env:
+      NODE_ENV: production
+
+  start:
+    desc: Start the production server
+    deps: [build]
+    cmds:
+      - npm start
+    env:
+      NODE_ENV: production
+
+  lint:
+    desc: Run ESLint
+    deps: [install]
+    cmds:
+      - npm run lint
+
+  lint:fix:
+    desc: Run ESLint and fix issues
+    deps: [install]
+    cmds:
+      - npm run lint -- --fix
+
+  type-check:
+    desc: Run TypeScript type checking
+    deps: [install]
+    cmds:
+      - npm run typecheck
+
+  clean:
+    desc: Clean build artifacts
+    cmds:
+      - rm -rf .next
+      - rm -rf node_modules/.cache
+
+  deploy:
+    desc: Deploy to Vercel
+    deps: [build]
+    cmds:
+      - vercel --prod
+
+  setup:
+    desc: Initial project setup
+    cmds:
+      - task: install
+      - echo "Setting up development environment..."
+      - |
+        if [ ! -f .env.local ]; then
+          echo "Creating .env.local file..."
+          echo "NEXT_PUBLIC_APP_URL=http://localhost:{{.PORT}}" > .env.local
+          if [ ! -z "$ELEVENLABS_API_KEY" ]; then
+            echo "ELEVENLABS_API_KEY=$ELEVENLABS_API_KEY" >> .env.local
+          fi
+        fi
+      - |
+        if [ ! -f elevenlabs-prefs.yaml ]; then
+          echo "Creating elevenlabs-prefs.yaml..."
+          cp elevenlabs-prefs.yaml.example elevenlabs-prefs.yaml
+        fi
+      - echo "Setup complete. Run 'task dev' to start the development server."
+    status:
+      - test -d node_modules
+      - test -f .env.local 

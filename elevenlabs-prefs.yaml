@@ -1,0 +1,45 @@
+# ElevenLabs Voice Preferences
+# Configuration for multilingual audio generation
+
+# Default settings for all voices
+defaults:
+  stability: 0.75
+  similarity_boost: 0.75
+  style: 0.5
+  use_speaker_boost: true
+
+# Language-specific voice mappings
+voices:
+  en:
+    voice_id: "21m00Tcm4TlvDq8ikWAM"  # Rachel - Clear, friendly, professional
+    name: "Rachel"
+  es:
+    voice_id: "EXAVITQu4vr4xnSDxMaL"  # Bella - Warm Spanish voice
+    name: "Bella"
+  fr:
+    voice_id: "ErXwobaYiN019PkySvjV"  # Antoni - Versatile for French
+    name: "Antoni"
+  zh:
+    voice_id: "TxGEqnHWrfWFTfGW9XjX"  # Michael - Clear for Mandarin
+    name: "Michael"
+  ja:
+    voice_id: "VR6AewLTigWG4xSOukaG"  # Elli - Soft for Japanese
+    name: "Elli"
+  ko:
+    voice_id: "pNInz6obpgDQGcFmaJgB"  # Sam - Clear for Korean
+    name: "Sam"
+  vi:
+    voice_id: "yoZ06aMxZJJ28mfd3POQ"  # Josh - Adaptable for Vietnamese
+    name: "Josh"
+
+# Audio generation settings
+output:
+  format: mp3
+  sample_rate: 44100
+  bit_rate: 192k
+  
+# Cache settings
+cache:
+  enabled: true
+  metadata_file: "public/audio/metadata.json"
+  audio_dir: "public/audio" 

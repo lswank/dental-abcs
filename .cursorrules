@@ -1,0 +1,149 @@
+{
+  "cursorEnvironmentRules": {
+    "shellConfiguration": {
+      "shell": "ZSH",
+      "requirements": [
+        "Source user's .zshrc for environment variables",
+        "Ensure NVM (Node Version Manager) is available"
+      ]
+    },
+    "requiredEnvironmentVariables": {
+      "PATH": [
+        "/usr/local/bin",
+        "$HOME/.nvm/versions/node/current/bin",
+        "/opt/homebrew/bin"
+      ]
+    },
+    "toolRequirements": [
+      "Node.js (via NVM)",
+      "Homebrew",
+      "Git",
+      "GitHub CLI",
+      "Vercel CLI",
+      "Task (go-task)"
+    ],
+    "shellInitialization": {
+      "commands": [
+        "source $HOME/.zshrc",
+        "export NVM_DIR=\"$HOME/.nvm\"",
+        "[ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\""
+      ]
+    },
+    "projectSpecificSettings": {
+      "workingDirectory": "/Users/lorenzo/Development/Production/dental-abcs",
+      "defaultShell": "/bin/zsh",
+      "nodeVersion": "Latest LTS",
+      "nextjsRequirements": {
+        "clientComponents": [
+          "src/components/BookPage.tsx",
+          "src/components/AlphabetPage.tsx",
+          "src/components/TitlePage.tsx",
+          "src/components/IntroPage.tsx"
+        ],
+        "directive": "'use client'",
+        "explanation": "Components using React hooks or browser APIs must be marked as client components"
+      }
+    },
+    "localDevelopment": {
+      "setupCommands": [
+        "brew install go-task",
+        "task setup",
+        "task dev"
+      ],
+      "verificationCommands": [
+        "curl -I http://localhost:3000",
+        "lsof -i :3000"
+      ],
+      "monitoringCommands": [
+        "tail -f .next/trace"
+      ],
+      "troubleshooting": {
+        "500Error": [
+          "Check if components using hooks are marked with 'use client'",
+          "Verify all client-side APIs are in client components",
+          "Check .next/trace for detailed error logs"
+        ],
+        "buildErrors": [
+          "Run task type-check for type errors",
+          "Run task lint for linting issues",
+          "Check component imports and exports"
+        ]
+      }
+    },
+    "cliInstructions": {
+      "setup": {
+        "description": "Initial setup of the development environment",
+        "steps": [
+          {
+            "command": "brew install go-task",
+            "explanation": "Install the Task runner"
+          },
+          {
+            "command": "task setup",
+            "explanation": "Set up the project dependencies and environment"
+          }
+        ]
+      },
+      "development": {
+        "description": "Running the development server",
+        "steps": [
+          {
+            "command": "task dev",
+            "explanation": "Start the development server on port 3000"
+          }
+        ],
+        "verification": {
+          "command": "task verify",
+          "expectedOutput": "Server is running!",
+          "troubleshooting": [
+            "Check if port 3000 is already in use: lsof -i :3000",
+            "Check Node.js version: node -v",
+            "Check npm packages: npm list",
+            "Verify client components are properly marked"
+          ]
+        }
+      },
+      "monitoring": {
+        "description": "Commands for monitoring the application",
+        "logFiles": {
+          "build": ".next/trace"
+        },
+        "healthChecks": [
+          {
+            "command": "task monitor",
+            "interval": "30s"
+          }
+        ]
+      }
+    },
+    "taskCommands": {
+      "available": [
+        {
+          "name": "setup",
+          "description": "Initial project setup",
+          "command": "task setup"
+        },
+        {
+          "name": "dev",
+          "description": "Start development server",
+          "command": "task dev"
+        },
+        {
+          "name": "verify",
+          "description": "Verify server is running",
+          "command": "task verify"
+        },
+        {
+          "name": "monitor",
+          "description": "Monitor server health",
+          "command": "task monitor"
+        },
+        {
+          "name": "logs",
+          "description": "Watch development logs",
+          "command": "task logs"
+        }
+      ]
+    }
+  }
+}

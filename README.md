@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dental ABCs - Interactive Children's Book
 
-## Getting Started
+An interactive, single-page web application featuring a dental-themed alphabet book with parallax scrolling effects.
 
-First, run the development server:
+## Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Node.js (v18.x or later)
+- npm (v9.x or later)
+- [Task](https://taskfile.dev/) - Task runner (optional but recommended)
+
+## Quick Start
+
+### Using Task (Recommended)
+
+1. Install Task if you haven't already:
+   ```bash
+   # On macOS using Homebrew
+   brew install go-task
+
+   # On Windows using Scoop
+   scoop install task
+   ```
+
+2. Run the setup task:
+   ```bash
+   task setup
+   ```
+
+3. Start the development server:
+   ```bash
+   task dev
+   ```
+
+### Using npm directly
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Available Tasks
+
+- `task setup` - Initial project setup
+- `task dev` - Start development server
+- `task build` - Build for production
+- `task start` - Start production server
+- `task lint` - Run ESLint
+- `task lint:fix` - Fix linting issues
+- `task type-check` - Run TypeScript type checking
+- `task clean` - Clean build artifacts
+- `task deploy` - Deploy to Vercel
+
+## Development
+
+The application is built with:
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+
+### Project Structure
+
+```
+src/
+├── app/              # Next.js app directory
+├── components/       # React components
+│   ├── BookPage.tsx    # Base page component
+│   ├── TitlePage.tsx   # Title page
+│   ├── IntroPage.tsx   # Introduction page
+│   └── AlphabetPage.tsx # Template for alphabet pages
+└── styles/          # Global styles
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Deployment
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The project is automatically deployed to Vercel. Each push to the main branch triggers a new deployment.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Production URL: https://dental-abcs-bu8742p4a-lorenzo-swanks-projects.vercel.app
 
-## Learn More
+## License
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is private and not licensed for public use.
