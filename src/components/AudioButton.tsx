@@ -41,7 +41,7 @@ export default function AudioButton({ lang, letter, className = '' }: AudioButto
       await audioRef.current.play();
       setIsPlaying(true);
       setIsLoading(false);
-    } catch (err) {
+    } catch {
       setError('Could not play audio');
       setIsPlaying(false);
       setIsLoading(false);

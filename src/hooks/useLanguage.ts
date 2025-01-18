@@ -2,13 +2,8 @@
 
 import { useContext } from 'react';
 import { AppContext } from '@/context/AppContext';
-import { Language } from '@/types/content';
 
-export function useLanguage() {
-  const { language: currentLanguage, setLanguage } = useContext(AppContext);
-  
-  return {
-    currentLanguage,
-    setLanguage,
-  } as const;
-} 
+export const useLanguage = () => {
+  const { language, setLanguage } = useContext(AppContext);
+  return { currentLanguage: language, setLanguage };
+}; 
