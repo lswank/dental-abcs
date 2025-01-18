@@ -51,8 +51,8 @@ const AnimatedPlaceholder: React.FC<{ animation?: string }> = ({ animation = 'de
 
   return (
     <div className="relative group">
-      <div className="absolute inset-0 bg-dental-blue-light/30 dark:bg-dark-dental-blue-dark/30 rounded-full blur-xl transform group-hover:scale-110 transition-transform duration-300" />
-      <div className={`relative w-64 h-64 bg-gradient-dental dark:bg-dark-gradient-dental rounded-full flex items-center justify-center shadow-lg transform group-hover:scale-105 transition-all duration-300 ${className}`}>
+      <div className="absolute inset-0 bg-gray-100 dark:bg-gray-800 rounded-full blur-xl transform group-hover:scale-110 transition-transform duration-300" />
+      <div className={`relative w-64 h-64 bg-white dark:bg-gray-800 rounded-full flex items-center justify-center shadow-lg transform group-hover:scale-105 transition-all duration-300 ${className}`}>
         <span className="text-6xl transform group-hover:scale-110 transition-transform duration-300" role="img" aria-label={animation}>
           {emoji}
         </span>
@@ -65,11 +65,11 @@ export default function AlphabetPage({ letter, word, sentence, id }: AlphabetPag
   const { currentLanguage } = useLanguage();
 
   return (
-    <div id={id} className="min-h-screen flex flex-col items-center justify-center p-8 bg-gradient-dental dark:bg-dark-gradient-dental">
+    <div id={id} className="min-h-screen flex flex-col items-center justify-center p-8 bg-white dark:bg-gray-900">
       <div className="max-w-4xl w-full space-y-8">
         <div className="flex justify-between items-start">
           <div className="flex items-center gap-4">
-            <h2 className="text-8xl font-bold text-dental-blue-dark dark:text-dark-dental-blue-dark">
+            <h2 className="text-8xl font-bold text-gray-900 dark:text-gray-50">
               {letter}
             </h2>
             <AudioButton 
@@ -81,12 +81,12 @@ export default function AlphabetPage({ letter, word, sentence, id }: AlphabetPag
           <div className="text-right space-y-2">
             <h3 
               lang={currentLanguage}
-              className="text-4xl font-semibold text-dental-blue dark:text-dark-dental-blue"
+              className="text-4xl font-semibold text-gray-900 dark:text-gray-50"
             >
               {word[currentLanguage]}
             </h3>
             {currentLanguage !== 'en' && (
-              <p className="text-2xl text-dental-blue-dark/60 dark:text-dark-text-secondary">
+              <p className="text-2xl text-gray-700 dark:text-gray-300">
                 {word.en}
               </p>
             )}
@@ -97,12 +97,12 @@ export default function AlphabetPage({ letter, word, sentence, id }: AlphabetPag
           <div className="text-center space-y-2 max-w-2xl">
             <p 
               lang={currentLanguage}
-              className="text-2xl text-dental-blue dark:text-dark-text-primary"
+              className="text-2xl text-gray-900 dark:text-gray-50"
             >
               {sentence[currentLanguage]}
             </p>
             {currentLanguage !== 'en' && (
-              <p className="text-xl text-dental-blue-dark/60 dark:text-dark-text-secondary">
+              <p className="text-xl text-gray-700 dark:text-gray-300">
                 {sentence.en}
               </p>
             )}

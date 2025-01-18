@@ -3,15 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: 17, 24, 39;
   --background-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-rgb: 0, 0, 0;
-  }
+:root.dark {
+  --foreground-rgb: 243, 244, 246;
+  --background-rgb: 17, 24, 39;
 }
 
 /* Language-specific font settings */
@@ -62,8 +60,12 @@ html {
   }
 
   ::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(17, 24, 39, 0.2);
     border-radius: 2px;
+  }
+
+  .dark ::-webkit-scrollbar-thumb {
+    background: rgba(243, 244, 246, 0.2);
   }
 }
 
@@ -80,8 +82,8 @@ html {
 /* Home Icon */
 .home-icon {
   @apply fixed top-4 left-4 z-50 p-2 rounded-full 
-    bg-dental-blue/10 hover:bg-dental-blue/20 
-    dark:bg-dark-dental-blue/20 dark:hover:bg-dark-dental-blue/30
+    bg-gray-100 hover:bg-gray-200
+    dark:bg-gray-800 dark:hover:bg-gray-700
     transition-colors duration-200;
 }
 
@@ -118,15 +120,8 @@ html {
   animation: pulse-slow 2s ease-in-out infinite;
 }
 
-/* Gradients */
-.bg-gradient-dental {
-  @apply bg-gradient-to-b from-dental-blue-light/30 to-white;
-}
-
-.dark .bg-gradient-dental {
-  @apply from-dark-dental-blue-dark/30 to-dark-bg-primary;
-}
-
-.bg-dark-gradient-dental {
-  @apply bg-gradient-to-b from-dark-dental-blue-dark/30 to-dark-bg-primary;
+/* Dark mode overrides */
+.dark body {
+  background-color: rgb(17, 24, 39);
+  color: rgb(243, 244, 246);
 }
