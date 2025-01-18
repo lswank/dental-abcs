@@ -11,8 +11,8 @@ export const alphabetContent: AlphabetEntry[] = [
   {
     letter: "A",
     word: {
-      en: "Alignment",
-      es: "Alineación",
+      en: "Appointment",
+      es: "Cita",
       fr: "Alignement",
       zh: "排列",
       ja: "歯並び",
@@ -20,15 +20,15 @@ export const alphabetContent: AlphabetEntry[] = [
       vi: "Sắp xếp"
     },
     sentence: {
-      en: "Aligning your teeth helps create a beautiful and healthy smile!",
-      es: "¡Alinear tus dientes ayuda a crear una sonrisa hermosa y saludable!",
+      en: "A special time when you visit the dentist to check your teeth",
+      es: "Un momento especial cuando visitas al dentista para revisar tus dientes",
       fr: "L'alignement des dents aide à créer un sourire beau et sain !",
       zh: "整齐的牙齿帮助你拥有美丽健康的笑容！",
       ja: "歯並びを整えることで、美しく健康的な笑顔になります！",
       ko: "치아를 바르게 정렬하면 아름답고 건강한 미소를 만들 수 있어요!",
       vi: "Sắp xếp răng đều giúp tạo nên nụ cười đẹp và khỏe mạnh!"
     },
-    animation: "teeth-straightening"
+    animation: "dentist-visit"
   },
   {
     letter: "B",
@@ -42,15 +42,15 @@ export const alphabetContent: AlphabetEntry[] = [
       vi: "Đánh răng"
     },
     sentence: {
-      en: "Brushing twice a day keeps the cavities away!",
-      es: "¡Cepillarse dos veces al día mantiene las caries alejadas!",
+      en: "Using a toothbrush to clean your teeth to keep them healthy and shiny",
+      es: "Usar un cepillo de dientes para limpiar tus dientes y mantenerlos sanos y brillantes",
       fr: "Se brosser les dents deux fois par jour éloigne les caries !",
       zh: "每天刷牙两次，远离蛀牙！",
       ja: "一日二回の歯磨きで、むし歯を予防しましょう！",
       ko: "하루에 두 번 칫솔질하면 충치를 예방할 수 있어요!",
       vi: "Đánh răng hai lần mỗi ngày giúp phòng tránh sâu răng!"
     },
-    animation: "toothbrush-motion"
+    animation: "brushing"
   },
   {
     letter: "C",
@@ -64,15 +64,15 @@ export const alphabetContent: AlphabetEntry[] = [
       vi: "Sâu răng"
     },
     sentence: {
-      en: "Cavities are tiny holes in teeth that we need to prevent.",
-      es: "Las caries son pequeños agujeros en los dientes que debemos prevenir.",
+      en: "A small hole in your tooth caused by sugar bugs (germs)",
+      es: "Un pequeño agujero en tu diente causado por los bichitos del azúcar (gérmenes)",
       fr: "Les caries sont de petits trous dans les dents qu'il faut prévenir.",
       zh: "蛀牙是牙齿上的小洞，我们需要预防它。",
       ja: "虫歯は歯に空く小さな穴です。予防が大切ですよ。",
       ko: "충치는 치아에 생기는 작은 구멍이에요. 예방해야 해요.",
       vi: "Sâu răng là những lỗ nhỏ trên răng mà chúng ta cần phòng ngừa."
     },
-    animation: "cavity-prevention"
+    animation: "cavity"
   },
   {
     letter: "D",
@@ -86,15 +86,15 @@ export const alphabetContent: AlphabetEntry[] = [
       vi: "Nha sĩ"
     },
     sentence: {
-      en: "Dentists are friendly doctors who help keep our teeth healthy.",
-      es: "Los dentistas son médicos amigables que ayudan a mantener nuestros dientes sanos.",
+      en: "A tooth doctor who helps keep your smile bright and healthy",
+      es: "Un doctor de dientes que ayuda a mantener tu sonrisa brillante y saludable",
       fr: "Les dentistes sont des médecins sympathiques qui aident à garder nos dents en bonne santé.",
       zh: "牙医是帮助我们保持牙齿健康的友好医生。",
       ja: "歯医者さんは私たちの歯を健康に保つ優しい先生です。",
       ko: "치과 선생님은 우리의 치아를 건강하게 지켜주는 친절한 의사예요.",
       vi: "Nha sĩ là những bác sĩ thân thiện giúp giữ cho răng của chúng ta khỏe mạnh."
     },
-    animation: "friendly-dentist"
+    animation: "dentist"
   },
   {
     letter: "E",
@@ -108,15 +108,15 @@ export const alphabetContent: AlphabetEntry[] = [
       vi: "Men răng"
     },
     sentence: {
-      en: "Enamel is the strong outer layer that protects our teeth.",
-      es: "El esmalte es la capa exterior fuerte que protege nuestros dientes.",
+      en: "The hard, shiny outer layer that protects your teeth",
+      es: "La capa externa dura y brillante que protege tus dientes",
       fr: "L'émail est la couche extérieure solide qui protège nos dents.",
       zh: "牙釉质是保护牙齿的坚硬外层。",
       ja: "エナメル質は歯を守る強い外側の層です。",
       ko: "법랑질은 우리 치아를 보호하는 단단한 겉층이에요.",
       vi: "Men răng là lớp bảo vệ cứng bên ngoài của răng."
     },
-    animation: "tooth-layers"
+    animation: "enamel"
   },
   {
     letter: "F",
@@ -130,15 +130,15 @@ export const alphabetContent: AlphabetEntry[] = [
       vi: "Chỉ nha khoa"
     },
     sentence: {
-      en: "Flossing helps clean between teeth where brushes can't reach.",
-      es: "El hilo dental ayuda a limpiar entre los dientes donde los cepillos no pueden llegar.",
+      en: "Using a special string to clean between your teeth",
+      es: "Usar un hilo especial para limpiar entre tus dientes",
       fr: "Le fil dentaire aide à nettoyer entre les dents là où les brosses ne peuvent pas atteindre.",
       zh: "使用牙线可以清洁牙刷够不到的牙缝。",
       ja: "デンタルフロスは歯ブラシが届かない歯と歯の間を掃除します。",
       ko: "치실은 칫솔이 닿지 않는 치아 사이를 깨끗하게 해줘요.",
       vi: "Chỉ nha khoa giúp làm sạch kẽ răng mà bàn chải không thể chạm tới."
     },
-    animation: "flossing-motion"
+    animation: "flossing"
   },
   {
     letter: "G",
@@ -152,15 +152,15 @@ export const alphabetContent: AlphabetEntry[] = [
       vi: "Nướu răng"
     },
     sentence: {
-      en: "Gums are the pink tissue that holds our teeth in place.",
-      es: "Las encías son el tejido rosado que mantiene nuestros dientes en su lugar.",
+      en: "The pink part of your mouth that holds your teeth in place",
+      es: "La parte rosada de tu boca que mantiene tus dientes en su lugar",
       fr: "Les gencives sont le tissu rose qui maintient nos dents en place.",
       zh: "牙龈是固定牙齿的粉红色组织。",
       ja: "歯茎は歯を支えているピンク色の組織です。",
       ko: "잇몸은 우리의 치아를 제자리에 잡아주는 분홍색 조직이에요.",
       vi: "Nướu răng là mô hồng giữ cho răng chắc chắn."
     },
-    animation: "healthy-gums"
+    animation: "gums"
   },
   {
     letter: "H",
@@ -174,21 +174,21 @@ export const alphabetContent: AlphabetEntry[] = [
       vi: "Vệ sinh"
     },
     sentence: {
-      en: "Hygiene habits help keep our mouth clean and fresh.",
-      es: "Los hábitos de higiene ayudan a mantener nuestra boca limpia y fresca.",
+      en: "Keeping your teeth and mouth clean and healthy",
+      es: "Mantener tus dientes y boca limpios y saludables",
       fr: "Les habitudes d'hygiène aident à garder notre bouche propre et fraîche.",
       zh: "良好的卫生习惯让口腔保持清洁和清新。",
       ja: "衛生習慣は口の中を清潔で爽やかに保ちます。",
       ko: "위생 습관은 우리의 입을 깨끗하고 상쾌하게 유지해줘요.",
       vi: "Thói quen vệ sinh giúp giữ miệng sạch sẽ và thơm tho."
     },
-    animation: "dental-routine"
+    animation: "hygiene"
   },
   {
     letter: "I",
     word: {
-      en: "Incisor",
-      es: "Incisivo",
+      en: "Incisors",
+      es: "Incisivos",
       fr: "Incisive",
       zh: "门牙",
       ja: "切歯",
@@ -196,15 +196,15 @@ export const alphabetContent: AlphabetEntry[] = [
       vi: "Răng cửa"
     },
     sentence: {
-      en: "Incisors are the front teeth we use to bite our food.",
-      es: "Los incisivos son los dientes frontales que usamos para morder nuestra comida.",
+      en: "Your front teeth that help you bite into food",
+      es: "Tus dientes delanteros que te ayudan a morder la comida",
       fr: "Les incisives sont les dents de devant que nous utilisons pour mordre nos aliments.",
       zh: "门牙是我们用来咬食物的前面的牙齿。",
       ja: "切歯は食べ物を噛むための前歯です。",
       ko: "앞니는 음식을 깨물 때 사용하는 앞쪽 치아예요.",
       vi: "Răng cửa là những chiếc răng phía trước dùng để cắn thức ăn."
     },
-    animation: "tooth-types"
+    animation: "incisors"
   },
   {
     letter: "J",
@@ -218,21 +218,21 @@ export const alphabetContent: AlphabetEntry[] = [
       vi: "Hàm"
     },
     sentence: {
-      en: "Jaws help us chew food and speak clearly.",
-      es: "Las mandíbulas nos ayudan a masticar la comida y hablar claramente.",
+      en: "The part of your face that holds your teeth and helps you chew",
+      es: "La parte de tu cara que sostiene tus dientes y te ayuda a masticar",
       fr: "Les mâchoires nous aident à mâcher les aliments et à parler clairement.",
       zh: "下颌帮助我们咀嚼食物和清晰地说话。",
       ja: "顎は食べ物を噛んだり、はっきりと話したりするのを助けます。",
       ko: "턱은 음식을 씹고 또렷하게 말할 수 있게 도와줘요.",
       vi: "Hàm giúp chúng ta nhai thức ăn và nói rõ ràng."
     },
-    animation: "jaw-movement"
+    animation: "jaw"
   },
   {
     letter: "K",
     word: {
-      en: "Kindness",
-      es: "Kindness",
+      en: "Kids",
+      es: "Niños",
       fr: "Kindness",
       zh: "友善",
       ja: "親切",
@@ -240,15 +240,15 @@ export const alphabetContent: AlphabetEntry[] = [
       vi: "Tử tế"
     },
     sentence: {
-      en: "Kind smiles make everyone feel happy and welcome!",
-      es: "¡Las sonrisas amables hacen que todos se sientan felices y bienvenidos!",
+      en: "Young people like you who are learning to take care of their teeth",
+      es: "Personas jóvenes como tú que están aprendiendo a cuidar sus dientes",
       fr: "Les sourires gentils font que tout le monde se sent heureux et bienvenu !",
       zh: "友善的微笑让每个人都感到快乐和受欢迎！",
       ja: "優しい笑顔は、みんなを幸せで温かい気持ちにします！",
       ko: "친절한 미소는 모든 사람을 행복하고 환영받는 기분이 들게 해요!",
       vi: "Nụ cười tử tế làm cho mọi người cảm thấy vui vẻ và được chào đón!"
     },
-    animation: "smiling-faces"
+    animation: "kids"
   },
   {
     letter: "L",
@@ -262,21 +262,21 @@ export const alphabetContent: AlphabetEntry[] = [
       vi: "Môi"
     },
     sentence: {
-      en: "Lips help us speak, smile, and keep food in our mouth.",
-      es: "Los labios nos ayudan a hablar, sonreír y mantener la comida en nuestra boca.",
+      en: "The soft part around your mouth that helps you smile and talk",
+      es: "La parte suave alrededor de tu boca que te ayuda a sonreír y hablar",
       fr: "Les lèvres nous aident à parler, sourire et garder la nourriture dans notre bouche.",
       zh: "嘴唇帮助我们说话、微笑，并保持食物在口中。",
       ja: "唇は話したり、笑ったり、食べ物を口の中に入れておくのを助けます。",
       ko: "입술은 말하고, 웃고, 음식을 입 안에 잘 담아두는 것을 도와줘요.",
       vi: "Môi giúp chúng ta nói chuyện, cười và giữ thức ăn trong miệng."
     },
-    animation: "lip-movements"
+    animation: "lips"
   },
   {
     letter: "M",
     word: {
-      en: "Molar",
-      es: "Molar",
+      en: "Molars",
+      es: "Molares",
       fr: "Molaire",
       zh: "臼齿",
       ja: "奥歯",
@@ -284,15 +284,15 @@ export const alphabetContent: AlphabetEntry[] = [
       vi: "Răng hàm"
     },
     sentence: {
-      en: "Molars are the big teeth at the back that grind our food.",
-      es: "Los molares son los dientes grandes en la parte posterior que muelen nuestra comida.",
+      en: "Your big teeth in the back that help you chew food",
+      es: "Tus dientes grandes en la parte de atrás que te ayudan a masticar la comida",
       fr: "Les molaires sont les grosses dents à l'arrière qui broient notre nourriture.",
       zh: "臼齿是后面的大牙齿，用来研磨食物。",
       ja: "奥歯は食べ物を細かく砕く後ろの大きな歯です。",
       ko: "어금니는 음식을 잘게 부수는 뒤쪽의 큰 치아예요.",
       vi: "Răng hàm là những chiếc răng to ở phía sau dùng để nghiền nát thức ăn."
     },
-    animation: "molar-grinding"
+    animation: "molars"
   },
   {
     letter: "N",
@@ -306,15 +306,15 @@ export const alphabetContent: AlphabetEntry[] = [
       vi: "Dinh dưỡng"
     },
     sentence: {
-      en: "Nutritious foods help build strong teeth and bones.",
-      es: "Los alimentos nutritivos ayudan a construir dientes y huesos fuertes.",
+      en: "Eating healthy foods that make your teeth strong",
+      es: "Comer alimentos saludables que hacen tus dientes fuertes",
       fr: "Les aliments nutritifs aident à construire des dents et des os solides.",
       zh: "营养丰富的食物帮助建立强壮的牙齿和骨骼。",
       ja: "栄養のある食べ物は丈夫な歯と骨を作ります。",
       ko: "영양가 있는 음식은 튼튼한 치아와 뼈를 만드는 데 도움을 줘요.",
       vi: "Thực phẩm giàu dinh dưỡng giúp xây dựng răng và xương chắc khỏe."
     },
-    animation: "healthy-foods"
+    animation: "nutrition"
   },
   {
     letter: "O",
@@ -328,191 +328,191 @@ export const alphabetContent: AlphabetEntry[] = [
       vi: "Bác sĩ chỉnh nha"
     },
     sentence: {
-      en: "Orthodontists help straighten teeth for perfect smiles.",
-      es: "Los ortodoncistas ayudan a enderezar los dientes para sonrisas perfectas.",
+      en: "A special dentist who helps make crooked teeth straight",
+      es: "Un dentista especial que ayuda a enderezar los dientes torcidos",
       fr: "Les orthodontistes aident à redresser les dents pour des sourires parfaits.",
       zh: "正畸医生帮助矫正牙齿，让笑容更完美。",
       ja: "矯正歯科医は歯並びを整えて、完璧な笑顔を作ります。",
       ko: "치아교정전문의는 완벽한 미소를 위해 치아를 반듯하게 해줘요.",
       vi: "Bác sĩ chỉnh nha giúp làm răng thẳng để có nụ cười hoàn hảo."
     },
-    animation: "braces-adjustment"
+    animation: "orthodontist"
   },
   {
     letter: "P",
     word: {
-      en: "Plaque",
-      es: "Placa",
-      fr: "Plaque",
-      zh: "牙菌斑",
-      ja: "歯垢",
-      ko: "치태",
-      vi: "Cao răng"
+      en: "Patient",
+      es: "Paciente",
+      fr: "Patient",
+      zh: "患者",
+      ja: "患者",
+      ko: "환자",
+      vi: "Bệnh nhân"
     },
     sentence: {
-      en: "Plaque is sticky stuff we need to brush away.",
-      es: "La placa es una sustancia pegajosa que necesitamos cepillar.",
-      fr: "La plaque est une substance collante qu'il faut brosser.",
-      zh: "牙菌斑是需要刷掉的粘性物质。",
-      ja: "歯垢は歯ブラシで落とさなければならない粘着物です。",
-      ko: "치태는 칫솔로 닦아내야 하는 끈적끈적한 것이에요.",
-      vi: "Cao răng là chất dính cần được đánh răng để loại bỏ."
+      en: "Someone who visits the dentist for tooth care",
+      es: "Alguien que visita al dentista para el cuidado de sus dientes",
+      fr: "Un patient est une personne qui se rend chez le dentiste pour prendre soin de ses dents.",
+      zh: "患者是去看牙医的人。",
+      ja: "患者は歯医者さんに訪れる人です。",
+      ko: "환자는 치과 선생님에게 방문하는 사람입니다.",
+      vi: "Bệnh nhân là người đến khám răng."
     },
-    animation: "plaque-removal"
+    animation: "patient"
   },
   {
     letter: "Q",
     word: {
-      en: "Quick",
-      es: "Rápido",
-      fr: "Rapide",
-      zh: "快速",
-      ja: "早期",
-      ko: "빠른",
-      vi: "Nhanh chóng"
+      en: "Quadrant",
+      es: "Cuadrante",
+      fr: "Quadrant",
+      zh: "象限",
+      ja: "象限",
+      ko: "사분면",
+      vi: "Góc phần tư"
     },
     sentence: {
-      en: "Quick check-ups help catch problems early!",
-      es: "¡Los chequeos rápidos ayudan a detectar problemas temprano!",
-      fr: "Les contrôles rapides aident à détecter les problèmes tôt !",
-      zh: "及时检查有助于早期发现问题！",
-      ja: "早期の検査で問題を早く見つけることができます！",
-      ko: "빠른 검진은 문제를 일찍 발견하는 데 도움이 돼요!",
-      vi: "Kiểm tra nhanh giúp phát hiện sớm các vấn đề!"
+      en: "One of the four parts of your mouth (top right, top left, bottom right, bottom left)",
+      es: "Una de las cuatro partes de tu boca (arriba derecha, arriba izquierda, abajo derecha, abajo izquierda)",
+      fr: "L'un des quatre quadrants de votre bouche (haut droit, haut gauche, bas droit, bas gauche)",
+      zh: "口腔的四个部分（上右、上左、下右、下左）",
+      ja: "口の四つの部分（上右、上左、下右、下左）",
+      ko: "입의 네 부분 (위 우측, 위 좌측, 아래 우측, 아래 좌측)",
+      vi: "Một trong bốn phần của miệng (trên phải, trên trái, dưới phải, dưới trái)"
     },
-    animation: "dental-checkup"
+    animation: "quadrant"
   },
   {
     letter: "R",
     word: {
-      en: "Rinse",
-      es: "Enjuague",
-      fr: "Rincer",
-      zh: "漱口",
-      ja: "うがい",
-      ko: "양치",
-      vi: "Súc miệng"
+      en: "Root canal",
+      es: "Conducto radicular",
+      fr: "Canal radiculaire",
+      zh: "根管治疗",
+      ja: "根管治療",
+      ko: "뿌리 치료",
+      vi: "Chụp răng"
     },
     sentence: {
-      en: "Rinsing with water helps keep our mouth clean.",
-      es: "Enjuagarse con agua ayuda a mantener nuestra boca limpia.",
-      fr: "Se rincer avec de l'eau aide à garder notre bouche propre.",
-      zh: "用水漱口有助于保持口腔清洁。",
-      ja: "水でうがいをすると口の中を清潔に保てます。",
-      ko: "물로 양치하면 입안을 깨끗하게 유지할 수 있어요.",
-      vi: "Súc miệng bằng nước giúp giữ miệng sạch sẽ."
+      en: "A special way to fix a tooth that has a big cavity",
+      es: "Una forma especial de arreglar un diente que tiene una caries grande",
+      fr: "Un canal radiculaire est une méthode spéciale pour traiter une carie profonde.",
+      zh: "根管治疗是治疗牙齿深部蛀牙的特殊方法。",
+      ja: "根管治療は深いむし歯を治療する特殊な方法です。",
+      ko: "뿌리 치료는 깊은 충치를 치료하는 특별한 방법입니다.",
+      vi: "Chụp răng là phương pháp đặc biệt để điều trị răng có sâu răng."
     },
-    animation: "rinsing-motion"
+    animation: "root-canal"
   },
   {
     letter: "S",
     word: {
-      en: "Smile",
-      es: "Sonrisa",
-      fr: "Sourire",
-      zh: "微笑",
-      ja: "笑顔",
-      ko: "미소",
-      vi: "Nụ cười"
+      en: "Sugar Bugs",
+      es: "Bichitos del Azúcar",
+      fr: "Bichos de sucre",
+      zh: "糖虫",
+      ja: "糖虫",
+      ko: "설탕 벌레",
+      vi: "Ruồi đường"
     },
     sentence: {
-      en: "Smiles are the best way to share happiness!",
-      es: "¡Las sonrisas son la mejor manera de compartir felicidad!",
-      fr: "Les sourires sont la meilleure façon de partager le bonheur !",
-      zh: "微笑是分享快乐的最好方式！",
-      ja: "笑顔は幸せを分かち合う一番いい方法です！",
-      ko: "미소는 행복을 나누는 가장 좋은 방법이에요!",
-      vi: "Nụ cười là cách tốt nhất để chia sẻ niềm vui!"
+      en: "Tiny germs that can hurt your teeth if you don't brush them away",
+      es: "Pequeños gérmenes que pueden dañar tus dientes si no los cepillas",
+      fr: "Les bichos de sucre sont de petits insectes qui peuvent endommager vos dents si vous ne les nettoyez pas.",
+      zh: "糖虫是微小的昆虫，如果你不刷牙，它们可能会伤害你的牙齿。",
+      ja: "糖虫は小さな昆虫です。むし歯を取り除かないと、歯を傷める可能性があります。",
+      ko: "설탕 벌레는 작은 벌레로, 칫솔을 닦지 않으면 치아를 손상시킬 수 있습니다.",
+      vi: "Ruồi đường là những con ruồi nhỏ, nếu chúng ta không đánh răng, chúng có thể gây hại cho răng."
     },
-    animation: "bright-smile"
+    animation: "sugar-bugs"
   },
   {
     letter: "T",
     word: {
-      en: "Tongue",
-      es: "Lengua",
-      fr: "Langue",
-      zh: "舌头",
-      ja: "舌",
-      ko: "혀",
-      vi: "Lưỡi"
+      en: "Teeth",
+      es: "Dientes",
+      fr: "Dents",
+      zh: "牙齿",
+      ja: "歯",
+      ko: "치아",
+      vi: "Răng"
     },
     sentence: {
-      en: "Tongues help us taste food and keep our mouth clean.",
-      es: "La lengua nos ayuda a saborear la comida y mantener nuestra boca limpia.",
-      fr: "La langue nous aide à goûter les aliments et à garder notre bouche propre.",
-      zh: "舌头帮助我们品尝食物并保持口腔清洁。",
-      ja: "舌は食べ物の味を感じたり、口の中を清潔に保ったりします。",
-      ko: "혀는 음식의 맛을 느끼고 입안을 깨끗하게 유지하는 것을 도와줘요.",
-      vi: "Lưỡi giúp chúng ta nếm thức ăn và giữ miệng sạch sẽ."
+      en: "The hard white parts in your mouth that help you eat and smile",
+      es: "Las partes duras y blancas en tu boca que te ayudan a comer y sonreír",
+      fr: "Les dents sont les parties blanches et dures de votre bouche qui vous aident à mâcher et à sourire.",
+      zh: "牙齿是口腔中坚硬白色的部分，帮助你咀嚼和微笑。",
+      ja: "歯は口の中にある白くて硬い部分です。食べ物を噛んだり、笑ったりするのを助けます。",
+      ko: "치아는 입 안에 있는 하얀 부분으로, 음식을 씹고 웃는 데 도움을 줍니다.",
+      vi: "Răng là những phần trắng và cứng trong miệng giúp chúng ta nhai thức ăn và cười."
     },
-    animation: "tongue-cleaning"
+    animation: "teeth"
   },
   {
     letter: "U",
     word: {
-      en: "Ultrasonic",
-      es: "Ultrasónico",
-      fr: "Ultrasonique",
-      zh: "超声波",
-      ja: "超音波",
-      ko: "초음파",
-      vi: "Siêu âm"
+      en: "Unerupted tooth",
+      es: "Diente no erupcionado",
+      fr: "Dent impugné",
+      zh: "未萌出的牙齿",
+      ja: "未萌出の歯",
+      ko: "미모치",
+      vi: "Răng chưa mọc"
     },
     sentence: {
-      en: "Ultrasonic cleaning helps make teeth sparkly clean!",
-      es: "¡La limpieza ultrasónica ayuda a dejar los dientes brillantes y limpios!",
-      fr: "Le nettoyage ultrasonique aide à rendre les dents étincelantes !",
-      zh: "超声波清洁帮助牙齿变得闪亮干净！",
-      ja: "超音波クリーニングで歯がピカピカになります！",
-      ko: "초음파 세척은 치아를 반짝반짝 깨끗하게 만들어줘요!",
-      vi: "Làm sạch bằng siêu âm giúp răng sạch bóng!"
+      en: "A tooth that hasn't poked through your gums yet",
+      es: "Un diente que todavía no ha salido a través de tus encías",
+      fr: "Un dent impugné est un dent qui n'est pas encore sorti de l'éruption.",
+      zh: "未萌出的牙齿是尚未穿出牙龈的牙齿。",
+      ja: "未萌出の歯は歯の中に出ていない歯です。",
+      ko: "미모치는 치아 속에 나오지 않은 치아입니다.",
+      vi: "Răng chưa mọc là những chiếc răng chưa mọc ra khỏi răng."
     },
-    animation: "cleaning-tool"
+    animation: "unerupted-tooth"
   },
   {
     letter: "V",
     word: {
-      en: "Vitamins",
-      es: "Vitaminas",
-      fr: "Vitamines",
-      zh: "维生素",
-      ja: "ビタミン",
-      ko: "비타민",
-      vi: "Vitamin"
+      en: "Varnish",
+      es: "Barniz",
+      fr: "Vernis",
+      zh: "釉质",
+      ja: "エナメル",
+      ko: "법랑질",
+      vi: "Men răng"
     },
     sentence: {
-      en: "Vitamins help our teeth stay strong and healthy.",
-      es: "Las vitaminas ayudan a mantener nuestros dientes fuertes y saludables.",
-      fr: "Les vitamines aident nos dents à rester fortes et saines.",
-      zh: "维生素帮助我们的牙齿保持强壮和健康。",
-      ja: "ビタミンは歯を丈夫で健康に保ちます。",
-      ko: "비타민은 우리의 치아를 튼튼하고 건강하게 유지해줘요.",
-      vi: "Vitamin giúp răng chúng ta chắc khỏe."
+      en: "A special vitamin paint that makes your teeth stronger",
+      es: "Una pintura especial de vitaminas que hace tus dientes más fuertes",
+      fr: "Le vernis est un vernis vitaminique qui rend vos dents plus solides.",
+      zh: "釉质是帮助牙齿变强的特殊维生素涂料。",
+      ja: "エナメルは歯を丈夫にするビタミンペイントです。",
+      ko: "법랑질은 치아를 더 단단하게 만드는 비타민 페인트입니다.",
+      vi: "Men răng là sơn men vitamin giúp răng chúng ta chắc khỏe."
     },
-    animation: "vitamin-sources"
+    animation: "varnish"
   },
   {
     letter: "W",
     word: {
-      en: "Wisdom",
-      es: "Sabiduría",
-      fr: "Sagesse",
-      zh: "智齿",
-      ja: "親知らず",
-      ko: "사랑니",
-      vi: "Răng khôn"
+      en: "Whitening",
+      es: "Blanqueamiento",
+      fr: "Blanchiment",
+      zh: "美白",
+      ja: "美白",
+      ko: "치아 미백",
+      vi: "Làm sáng"
     },
     sentence: {
-      en: "Wisdom teeth are the last teeth to grow in our mouth.",
-      es: "Las muelas del juicio son los últimos dientes en crecer en nuestra boca.",
-      fr: "Les dents de sagesse sont les dernières dents à pousser dans notre bouche.",
-      zh: "智齿是最后长出来的牙齿。",
-      ja: "親知らずは最後に生えてくる歯です。",
-      ko: "사랑니는 우리 입에서 마지막으로 나는 치아예요.",
-      vi: "Răng khôn là những chiếc răng mọc sau cùng trong miệng chúng ta."
+      en: "Making your teeth look bright and clean",
+      es: "Hacer que tus dientes se vean brillantes y limpios",
+      fr: "Blanchir vos dents pour qu'elles deviennent plus brillantes et propres.",
+      zh: "让牙齿看起来更白更干净",
+      ja: "歯を白くして、美しくします。",
+      ko: "치아를 밝게 하고 깨끗하게 만들어요.",
+      vi: "Làm sáng răng để chúng trông sáng bóng và sạch sẽ."
     },
-    animation: "wisdom-teeth"
+    animation: "whitening"
   },
   {
     letter: "X",
@@ -526,58 +526,58 @@ export const alphabetContent: AlphabetEntry[] = [
       vi: "Tia X"
     },
     sentence: {
-      en: "X-rays help dentists see inside our teeth.",
-      es: "Los rayos X ayudan a los dentistas a ver dentro de nuestros dientes.",
+      en: "A special picture that lets the dentist see inside your teeth",
+      es: "Una foto especial que permite al dentista ver dentro de tus dientes",
       fr: "Les rayons X aident les dentistes à voir à l'intérieur de nos dents.",
       zh: "X光帮助牙医看到牙齿内部。",
       ja: "レントゲンで歯医者さんは歯の中を見ることができます。",
       ko: "엑스레이는 치과 선생님이 우리 치아 속을 볼 수 있게 해줘요.",
       vi: "Tia X giúp nha sĩ nhìn được bên trong răng của chúng ta."
     },
-    animation: "dental-xray"
+    animation: "xray"
   },
   {
     letter: "Y",
     word: {
-      en: "Yearly",
-      es: "Anual",
-      fr: "Annuel",
-      zh: "年度",
-      ja: "年一回",
-      ko: "연간",
-      vi: "Hàng năm"
+      en: "Yellowing",
+      es: "Amarillamiento",
+      fr: "Jaunissement",
+      zh: "黄变",
+      ja: "黄変",
+      ko: "노란색 변화",
+      vi: "Ngả màu"
     },
     sentence: {
-      en: "Yearly visits to the dentist keep our smiles bright!",
-      es: "¡Las visitas anuales al dentista mantienen nuestras sonrisas brillantes!",
-      fr: "Les visites annuelles chez le dentiste gardent nos sourires éclatants !",
-      zh: "每年看牙医让我们的笑容保持灿烂！",
-      ja: "年一回の歯医者さん検診で笑顔を輝かせましょう！",
-      ko: "일 년에 한 번 치과 검진으로 우리의 미소를 밝게 유지해요!",
-      vi: "Thăm khám nha sĩ hàng năm giúp nụ cười của chúng ta tươi sáng!"
+      en: "When teeth lose their bright white color",
+      es: "Cuando los dientes pierden su color blanco brillante",
+      fr: "Quand les dents perdent leur blanchette éclatante",
+      zh: "当牙齿失去亮白色时",
+      ja: "歯が明るい白に変わるとき",
+      ko: "치아가 밝은 흰색에서 노란색으로 변하는 경우",
+      vi: "Khi răng mất màu trắng sáng"
     },
-    animation: "calendar-checkup"
+    animation: "yellowing"
   },
   {
     letter: "Z",
     word: {
-      en: "Zinc",
-      es: "Zinc",
-      fr: "Zinc",
-      zh: "锌",
-      ja: "亜鉛",
-      ko: "아연",
+      en: "Zirconia",
+      es: "Zirconia",
+      fr: "Zirconia",
+      zh: "锆石",
+      ja: "ジルコニア",
+      ko: "저식",
       vi: "Kẽm"
     },
     sentence: {
-      en: "Zinc is a mineral that helps keep our teeth strong.",
-      es: "El zinc es un mineral que ayuda a mantener nuestros dientes fuertes.",
-      fr: "Le zinc est un minéral qui aide à garder nos dents fortes.",
-      zh: "锌是帮助保持牙齿强壮的矿物质。",
-      ja: "亜鉛は歯を丈夫に保つミネラルです。",
-      ko: "아연은 우리의 치아를 튼튼하게 유지하는 데 도움을 주는 미네랄이에요.",
-      vi: "Kẽm là khoáng chất giúp răng chúng ta chắc khỏe."
+      en: "A special white material used to fix broken teeth",
+      es: "Un material blanco especial usado para arreglar dientes rotos",
+      fr: "La zirconia est un matériau blanc spécial utilisé pour réparer des dents cassées.",
+      zh: "锆石是用于修复断裂牙齿的特殊白色材料。",
+      ja: "ジルコニアは歯を修理するために使用される白い素材です。",
+      ko: "저식은 치아를 수리하는 데 사용되는 흰색 재료입니다.",
+      vi: "Kẽm là vật liệu trắng đặc biệt được sử dụng để sửa chữa răng gãy."
     },
-    animation: "mineral-benefits"
+    animation: "zirconia"
   }
 ]; 
