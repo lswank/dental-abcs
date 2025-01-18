@@ -1,402 +1,402 @@
 {
   "en/a": {
-    "text": "Alignment. Aligning your teeth helps create a beautiful and healthy smile!",
-    "generated": "2025-01-18T03:42:32.379Z",
+    "text": "Appointment. A special time when you visit the dentist to check your teeth",
+    "generated": "2025-01-18T21:27:55.531Z",
     "voice": "Rachel"
   },
   "en/b": {
-    "text": "Brushing. Brushing twice a day keeps the cavities away!",
-    "generated": "2025-01-18T03:42:34.705Z",
+    "text": "Brushing. Using a toothbrush to clean your teeth to keep them healthy and shiny",
+    "generated": "2025-01-18T21:27:57.967Z",
     "voice": "Rachel"
   },
   "en/c": {
-    "text": "Cavity. Cavities are tiny holes in teeth that we need to prevent.",
-    "generated": "2025-01-18T03:42:37.140Z",
+    "text": "Cavity. A small hole in your tooth caused by sugar bugs (germs)",
+    "generated": "2025-01-18T21:28:00.322Z",
     "voice": "Rachel"
   },
   "en/d": {
-    "text": "Dentist. Dentists are friendly doctors who help keep our teeth healthy.",
-    "generated": "2025-01-18T03:42:39.592Z",
+    "text": "Dentist. A tooth doctor who helps keep your smile bright and healthy",
+    "generated": "2025-01-18T21:28:02.819Z",
     "voice": "Rachel"
   },
   "en/e": {
-    "text": "Enamel. Enamel is the strong outer layer that protects our teeth.",
-    "generated": "2025-01-18T03:42:42.054Z",
+    "text": "Enamel. The hard, shiny outer layer that protects your teeth",
+    "generated": "2025-01-18T21:28:05.154Z",
     "voice": "Rachel"
   },
   "en/f": {
-    "text": "Flossing. Flossing helps clean between teeth where brushes can't reach.",
-    "generated": "2025-01-18T03:42:44.597Z",
+    "text": "Flossing. Using a special string to clean between your teeth",
+    "generated": "2025-01-18T21:28:07.475Z",
     "voice": "Rachel"
   },
   "en/g": {
-    "text": "Gums. Gums are the pink tissue that holds our teeth in place.",
-    "generated": "2025-01-18T03:42:46.992Z",
+    "text": "Gums. The pink part of your mouth that holds your teeth in place",
+    "generated": "2025-01-18T21:28:09.950Z",
     "voice": "Rachel"
   },
   "en/h": {
-    "text": "Hygiene. Hygiene habits help keep our mouth clean and fresh.",
-    "generated": "2025-01-18T03:42:49.456Z",
+    "text": "Hygiene. Keeping your teeth and mouth clean and healthy",
+    "generated": "2025-01-18T21:28:12.296Z",
     "voice": "Rachel"
   },
   "en/i": {
-    "text": "Incisor. Incisors are the front teeth we use to bite our food.",
-    "generated": "2025-01-18T03:42:51.908Z",
+    "text": "Incisors. Your front teeth that help you bite into food",
+    "generated": "2025-01-18T21:28:14.629Z",
     "voice": "Rachel"
   },
   "en/j": {
-    "text": "Jaw. Jaws help us chew food and speak clearly.",
-    "generated": "2025-01-18T03:42:54.189Z",
+    "text": "Jaw. The part of your face that holds your teeth and helps you chew",
+    "generated": "2025-01-18T21:28:17.012Z",
     "voice": "Rachel"
   },
   "en/k": {
-    "text": "Kindness. Kind smiles make everyone feel happy and welcome!",
-    "generated": "2025-01-18T03:42:56.809Z",
+    "text": "Kids. Young people like you who are learning to take care of their teeth",
+    "generated": "2025-01-18T21:28:19.374Z",
     "voice": "Rachel"
   },
   "en/l": {
-    "text": "Lips. Lips help us speak, smile, and keep food in our mouth.",
-    "generated": "2025-01-18T03:42:59.455Z",
+    "text": "Lips. The soft part around your mouth that helps you smile and talk",
+    "generated": "2025-01-18T21:28:21.772Z",
     "voice": "Rachel"
   },
   "en/m": {
-    "text": "Molar. Molars are the big teeth at the back that grind our food.",
-    "generated": "2025-01-18T03:43:01.911Z",
+    "text": "Molars. Your big teeth in the back that help you chew food",
+    "generated": "2025-01-18T21:28:24.094Z",
     "voice": "Rachel"
   },
   "en/n": {
-    "text": "Nutrition. Nutritious foods help build strong teeth and bones.",
-    "generated": "2025-01-18T03:43:04.393Z",
+    "text": "Nutrition. Eating healthy foods that make your teeth strong",
+    "generated": "2025-01-18T21:28:26.481Z",
     "voice": "Rachel"
   },
   "en/o": {
-    "text": "Orthodontist. Orthodontists help straighten teeth for perfect smiles.",
-    "generated": "2025-01-18T03:43:06.894Z",
+    "text": "Orthodontist. A special dentist who helps make crooked teeth straight",
+    "generated": "2025-01-18T21:28:28.892Z",
     "voice": "Rachel"
   },
   "en/p": {
-    "text": "Plaque. Plaque is sticky stuff we need to brush away.",
-    "generated": "2025-01-18T03:43:09.232Z",
+    "text": "Patient. Someone who visits the dentist for tooth care",
+    "generated": "2025-01-18T21:28:31.455Z",
     "voice": "Rachel"
   },
   "en/q": {
-    "text": "Quick. Quick check-ups help catch problems early!",
-    "generated": "2025-01-18T03:43:11.564Z",
+    "text": "Quadrant. One of the four parts of your mouth (top right, top left, bottom right, bottom left)",
+    "generated": "2025-01-18T21:28:34.060Z",
     "voice": "Rachel"
   },
   "en/r": {
-    "text": "Rinse. Rinsing with water helps keep our mouth clean.",
-    "generated": "2025-01-18T03:43:13.881Z",
+    "text": "Root canal. A special way to fix a tooth that has a big cavity",
+    "generated": "2025-01-18T21:28:36.462Z",
     "voice": "Rachel"
   },
   "en/s": {
-    "text": "Smile. Smiles are the best way to share happiness!",
-    "generated": "2025-01-18T03:43:16.250Z",
+    "text": "Sugar Bugs. Tiny germs that can hurt your teeth if you don't brush them away",
+    "generated": "2025-01-18T21:28:38.909Z",
     "voice": "Rachel"
   },
   "en/t": {
-    "text": "Tongue. Tongues help us taste food and keep our mouth clean.",
-    "generated": "2025-01-18T03:43:18.660Z",
+    "text": "Teeth. The hard white parts in your mouth that help you eat and smile",
+    "generated": "2025-01-18T21:28:41.306Z",
     "voice": "Rachel"
   },
   "en/u": {
-    "text": "Ultrasonic. Ultrasonic cleaning helps make teeth sparkly clean!",
-    "generated": "2025-01-18T03:43:21.082Z",
+    "text": "Unerupted tooth. A tooth that hasn't poked through your gums yet",
+    "generated": "2025-01-18T21:28:43.598Z",
     "voice": "Rachel"
   },
   "en/v": {
-    "text": "Vitamins. Vitamins help our teeth stay strong and healthy.",
-    "generated": "2025-01-18T03:43:23.471Z",
+    "text": "Varnish. A special vitamin paint that makes your teeth stronger",
+    "generated": "2025-01-18T21:28:46.047Z",
     "voice": "Rachel"
   },
   "en/w": {
-    "text": "Wisdom. Wisdom teeth are the last teeth to grow in our mouth.",
-    "generated": "2025-01-18T03:43:25.895Z",
+    "text": "Whitening. Making your teeth look bright and clean",
+    "generated": "2025-01-18T21:28:48.769Z",
     "voice": "Rachel"
   },
   "en/x": {
-    "text": "X-ray. X-rays help dentists see inside our teeth.",
-    "generated": "2025-01-18T03:43:28.299Z",
+    "text": "X-ray. A special picture that lets the dentist see inside your teeth",
+    "generated": "2025-01-18T21:28:51.224Z",
     "voice": "Rachel"
   },
   "en/y": {
-    "text": "Yearly. Yearly visits to the dentist keep our smiles bright!",
-    "generated": "2025-01-18T03:43:30.706Z",
+    "text": "Yellowing. When teeth lose their bright white color",
+    "generated": "2025-01-18T21:28:53.481Z",
     "voice": "Rachel"
   },
   "en/z": {
-    "text": "Zinc. Zinc is a mineral that helps keep our teeth strong.",
-    "generated": "2025-01-18T03:43:33.250Z",
+    "text": "Zirconia. A special white material used to fix broken teeth",
+    "generated": "2025-01-18T21:28:56.063Z",
     "voice": "Rachel"
   },
   "es/a": {
-    "text": "Alineación. ¡Alinear tus dientes ayuda a crear una sonrisa hermosa y saludable!",
-    "generated": "2025-01-18T05:28:28.590Z",
+    "text": "Cita. Un momento especial cuando visitas al dentista para revisar tus dientes",
+    "generated": "2025-01-18T21:28:58.963Z",
     "voice": "Bella"
   },
   "es/b": {
-    "text": "Cepillado. ¡Cepillarse dos veces al día mantiene las caries alejadas!",
-    "generated": "2025-01-18T05:28:31.545Z",
+    "text": "Cepillado. Usar un cepillo de dientes para limpiar tus dientes y mantenerlos sanos y brillantes",
+    "generated": "2025-01-18T21:29:01.906Z",
     "voice": "Bella"
   },
   "es/c": {
-    "text": "Caries. Las caries son pequeños agujeros en los dientes que debemos prevenir.",
-    "generated": "2025-01-18T05:28:34.373Z",
+    "text": "Caries. Un pequeño agujero en tu diente causado por los bichitos del azúcar (gérmenes)",
+    "generated": "2025-01-18T21:29:04.863Z",
     "voice": "Bella"
   },
   "es/d": {
-    "text": "Dentista. Los dentistas son médicos amigables que ayudan a mantener nuestros dientes sanos.",
-    "generated": "2025-01-18T05:28:37.696Z",
+    "text": "Dentista. Un doctor de dientes que ayuda a mantener tu sonrisa brillante y saludable",
+    "generated": "2025-01-18T21:29:07.697Z",
     "voice": "Bella"
   },
   "es/e": {
-    "text": "Esmalte. El esmalte es la capa exterior fuerte que protege nuestros dientes.",
-    "generated": "2025-01-18T05:28:41.351Z",
+    "text": "Esmalte. La capa externa dura y brillante que protege tus dientes",
+    "generated": "2025-01-18T21:29:10.263Z",
     "voice": "Bella"
   },
   "es/f": {
-    "text": "Hilo Dental. El hilo dental ayuda a limpiar entre los dientes donde los cepillos no pueden llegar.",
-    "generated": "2025-01-18T05:28:44.295Z",
+    "text": "Hilo Dental. Usar un hilo especial para limpiar entre tus dientes",
+    "generated": "2025-01-18T21:29:13.308Z",
     "voice": "Bella"
   },
   "es/g": {
-    "text": "Encías. Las encías son el tejido rosado que mantiene nuestros dientes en su lugar.",
-    "generated": "2025-01-18T05:28:47.012Z",
+    "text": "Encías. La parte rosada de tu boca que mantiene tus dientes en su lugar",
+    "generated": "2025-01-18T21:29:15.953Z",
     "voice": "Bella"
   },
   "es/h": {
-    "text": "Higiene. Los hábitos de higiene ayudan a mantener nuestra boca limpia y fresca.",
-    "generated": "2025-01-18T05:28:50.021Z",
+    "text": "Higiene. Mantener tus dientes y boca limpios y saludables",
+    "generated": "2025-01-18T21:29:18.483Z",
     "voice": "Bella"
   },
   "es/i": {
-    "text": "Incisivo. Los incisivos son los dientes frontales que usamos para morder nuestra comida.",
-    "generated": "2025-01-18T05:28:52.827Z",
+    "text": "Incisivos. Tus dientes delanteros que te ayudan a morder la comida",
+    "generated": "2025-01-18T21:29:21.337Z",
     "voice": "Bella"
   },
   "es/j": {
-    "text": "Mandíbula. Las mandíbulas nos ayudan a masticar la comida y hablar claramente.",
-    "generated": "2025-01-18T05:28:56.002Z",
+    "text": "Mandíbula. La parte de tu cara que sostiene tus dientes y te ayuda a masticar",
+    "generated": "2025-01-18T21:29:23.969Z",
     "voice": "Bella"
   },
   "es/k": {
-    "text": "Kindness. ¡Las sonrisas amables hacen que todos se sientan felices y bienvenidos!",
-    "generated": "2025-01-18T05:28:58.835Z",
+    "text": "Niños. Personas jóvenes como tú que están aprendiendo a cuidar sus dientes",
+    "generated": "2025-01-18T21:29:26.549Z",
     "voice": "Bella"
   },
   "es/l": {
-    "text": "Labios. Los labios nos ayudan a hablar, sonreír y mantener la comida en nuestra boca.",
-    "generated": "2025-01-18T05:29:01.725Z",
+    "text": "Labios. La parte suave alrededor de tu boca que te ayuda a sonreír y hablar",
+    "generated": "2025-01-18T21:29:29.324Z",
     "voice": "Bella"
   },
   "es/m": {
-    "text": "Molar. Los molares son los dientes grandes en la parte posterior que muelen nuestra comida.",
-    "generated": "2025-01-18T05:29:04.668Z",
+    "text": "Molares. Tus dientes grandes en la parte de atrás que te ayudan a masticar la comida",
+    "generated": "2025-01-18T21:29:32.009Z",
     "voice": "Bella"
   },
   "es/n": {
-    "text": "Nutrición. Los alimentos nutritivos ayudan a construir dientes y huesos fuertes.",
-    "generated": "2025-01-18T05:29:07.491Z",
+    "text": "Nutrición. Comer alimentos saludables que hacen tus dientes fuertes",
+    "generated": "2025-01-18T21:29:34.594Z",
     "voice": "Bella"
   },
   "es/o": {
-    "text": "Ortodoncista. Los ortodoncistas ayudan a enderezar los dientes para sonrisas perfectas.",
-    "generated": "2025-01-18T05:29:10.509Z",
+    "text": "Ortodoncista. Un dentista especial que ayuda a enderezar los dientes torcidos",
+    "generated": "2025-01-18T21:29:37.211Z",
     "voice": "Bella"
   },
   "es/p": {
-    "text": "Placa. La placa es una sustancia pegajosa que necesitamos cepillar.",
-    "generated": "2025-01-18T05:29:13.531Z",
+    "text": "Paciente. Alguien que visita al dentista para el cuidado de sus dientes",
+    "generated": "2025-01-18T21:29:39.779Z",
     "voice": "Bella"
   },
   "es/q": {
-    "text": "Rápido. ¡Los chequeos rápidos ayudan a detectar problemas temprano!",
-    "generated": "2025-01-18T05:29:16.271Z",
+    "text": "Cuadrante. Una de las cuatro partes de tu boca (arriba derecha, arriba izquierda, abajo derecha, abajo izquierda)",
+    "generated": "2025-01-18T21:29:42.976Z",
     "voice": "Bella"
   },
   "es/r": {
-    "text": "Enjuague. Enjuagarse con agua ayuda a mantener nuestra boca limpia.",
-    "generated": "2025-01-18T05:29:19.062Z",
+    "text": "Conducto radicular. Una forma especial de arreglar un diente que tiene una caries grande",
+    "generated": "2025-01-18T21:29:45.837Z",
     "voice": "Bella"
   },
   "es/s": {
-    "text": "Sonrisa. ¡Las sonrisas son la mejor manera de compartir felicidad!",
-    "generated": "2025-01-18T05:29:21.697Z",
+    "text": "Bichitos del Azúcar. Pequeños gérmenes que pueden dañar tus dientes si no los cepillas",
+    "generated": "2025-01-18T21:29:48.902Z",
     "voice": "Bella"
   },
   "es/t": {
-    "text": "Lengua. La lengua nos ayuda a saborear la comida y mantener nuestra boca limpia.",
-    "generated": "2025-01-18T05:29:24.416Z",
+    "text": "Dientes. Las partes duras y blancas en tu boca que te ayudan a comer y sonreír",
+    "generated": "2025-01-18T21:29:51.695Z",
     "voice": "Bella"
   },
   "es/u": {
-    "text": "Ultrasónico. ¡La limpieza ultrasónica ayuda a dejar los dientes brillantes y limpios!",
-    "generated": "2025-01-18T05:29:27.612Z",
+    "text": "Diente no erupcionado. Un diente que todavía no ha salido a través de tus encías",
+    "generated": "2025-01-18T21:29:54.519Z",
     "voice": "Bella"
   },
   "es/v": {
-    "text": "Vitaminas. Las vitaminas ayudan a mantener nuestros dientes fuertes y saludables.",
-    "generated": "2025-01-18T05:29:30.416Z",
+    "text": "Barniz. Una pintura especial de vitaminas que hace tus dientes más fuertes",
+    "generated": "2025-01-18T21:29:57.232Z",
     "voice": "Bella"
   },
   "es/w": {
-    "text": "Sabiduría. Las muelas del juicio son los últimos dientes en crecer en nuestra boca.",
-    "generated": "2025-01-18T05:29:33.161Z",
+    "text": "Blanqueamiento. Hacer que tus dientes se vean brillantes y limpios",
+    "generated": "2025-01-18T21:29:59.901Z",
     "voice": "Bella"
   },
   "es/x": {
-    "text": "Rayos X. Los rayos X ayudan a los dentistas a ver dentro de nuestros dientes.",
-    "generated": "2025-01-18T05:29:36.121Z",
+    "text": "Rayos X. Una foto especial que permite al dentista ver dentro de tus dientes",
+    "generated": "2025-01-18T21:30:02.787Z",
     "voice": "Bella"
   },
   "es/y": {
-    "text": "Anual. ¡Las visitas anuales al dentista mantienen nuestras sonrisas brillantes!",
-    "generated": "2025-01-18T05:29:38.828Z",
+    "text": "Amarillamiento. Cuando los dientes pierden su color blanco brillante",
+    "generated": "2025-01-18T21:30:05.666Z",
     "voice": "Bella"
   },
   "es/z": {
-    "text": "Zinc. El zinc es un mineral que ayuda a mantener nuestros dientes fuertes.",
-    "generated": "2025-01-18T05:29:41.934Z",
+    "text": "Zirconia. Un material blanco especial usado para arreglar dientes rotos",
+    "generated": "2025-01-18T21:30:08.362Z",
     "voice": "Bella"
   },
   "fr/a": {
-    "text": "Alignement. L'alignement des dents aide à créer un sourire beau et sain !",
-    "generated": "2025-01-18T05:29:44.628Z",
+    "text": "Rendez-vous. Un moment spécial où tu visites le dentiste pour vérifier tes dents",
+    "generated": "2025-01-18T21:30:11.014Z",
     "voice": "Antoni"
   },
   "fr/b": {
-    "text": "Brossage. Se brosser les dents deux fois par jour éloigne les caries !",
-    "generated": "2025-01-18T05:29:47.206Z",
+    "text": "Brossage. Utiliser une brosse à dents pour nettoyer tes dents et les garder saines et brillantes",
+    "generated": "2025-01-18T21:30:13.929Z",
     "voice": "Antoni"
   },
   "fr/c": {
-    "text": "Carie. Les caries sont de petits trous dans les dents qu'il faut prévenir.",
-    "generated": "2025-01-18T05:29:49.694Z",
+    "text": "Carie. Un petit trou dans ta dent causé par les microbes du sucre (germes)",
+    "generated": "2025-01-18T21:30:16.558Z",
     "voice": "Antoni"
   },
   "fr/d": {
-    "text": "Dentiste. Les dentistes sont des médecins sympathiques qui aident à garder nos dents en bonne santé.",
-    "generated": "2025-01-18T05:29:52.628Z",
+    "text": "Dentiste. Un docteur des dents qui aide à garder ton sourire éclatant et en bonne santé",
+    "generated": "2025-01-18T21:30:19.237Z",
     "voice": "Antoni"
   },
   "fr/e": {
-    "text": "Émail. L'émail est la couche extérieure solide qui protège nos dents.",
-    "generated": "2025-01-18T05:29:55.294Z",
+    "text": "Émail. La couche extérieure dure et brillante qui protège tes dents",
+    "generated": "2025-01-18T21:30:21.819Z",
     "voice": "Antoni"
   },
   "fr/f": {
-    "text": "Fil Dentaire. Le fil dentaire aide à nettoyer entre les dents là où les brosses ne peuvent pas atteindre.",
-    "generated": "2025-01-18T05:29:58.306Z",
+    "text": "Fil Dentaire. Utiliser un fil spécial pour nettoyer entre tes dents",
+    "generated": "2025-01-18T21:30:24.800Z",
     "voice": "Antoni"
   },
   "fr/g": {
-    "text": "Gencives. Les gencives sont le tissu rose qui maintient nos dents en place.",
-    "generated": "2025-01-18T05:30:00.952Z",
+    "text": "Gencives. La partie rose de ta bouche qui maintient tes dents en place",
+    "generated": "2025-01-18T21:30:27.392Z",
     "voice": "Antoni"
   },
   "fr/h": {
-    "text": "Hygiène. Les habitudes d'hygiène aident à garder notre bouche propre et fraîche.",
-    "generated": "2025-01-18T05:30:03.636Z",
+    "text": "Hygiène. Garder tes dents et ta bouche propres et en bonne santé",
+    "generated": "2025-01-18T21:30:29.944Z",
     "voice": "Antoni"
   },
   "fr/i": {
-    "text": "Incisive. Les incisives sont les dents de devant que nous utilisons pour mordre nos aliments.",
-    "generated": "2025-01-18T05:30:06.463Z",
+    "text": "Incisives. Tes dents de devant qui t'aident à mordre dans les aliments",
+    "generated": "2025-01-18T21:30:32.474Z",
     "voice": "Antoni"
   },
   "fr/j": {
-    "text": "Mâchoire. Les mâchoires nous aident à mâcher les aliments et à parler clairement.",
-    "generated": "2025-01-18T05:30:09.157Z",
+    "text": "Mâchoire. La partie de ton visage qui tient tes dents et t'aide à mâcher",
+    "generated": "2025-01-18T21:30:35.041Z",
     "voice": "Antoni"
   },
   "fr/k": {
-    "text": "Kindness. Les sourires gentils font que tout le monde se sent heureux et bienvenu !",
-    "generated": "2025-01-18T05:30:11.996Z",
+    "text": "Enfants. Les jeunes comme toi qui apprennent à prendre soin de leurs dents",
+    "generated": "2025-01-18T21:30:37.544Z",
     "voice": "Antoni"
   },
   "fr/l": {
-    "text": "Lèvres. Les lèvres nous aident à parler, sourire et garder la nourriture dans notre bouche.",
-    "generated": "2025-01-18T05:30:15.254Z",
+    "text": "Lèvres. La partie douce autour de ta bouche qui t'aide à sourire et à parler",
+    "generated": "2025-01-18T21:30:40.302Z",
     "voice": "Antoni"
   },
   "fr/m": {
-    "text": "Molaire. Les molaires sont les grosses dents à l'arrière qui broient notre nourriture.",
-    "generated": "2025-01-18T05:30:17.929Z",
+    "text": "Molaires. Tes grosses dents à l'arrière qui t'aident à mâcher les aliments",
+    "generated": "2025-01-18T21:30:42.885Z",
     "voice": "Antoni"
   },
   "fr/n": {
-    "text": "Nutrition. Les aliments nutritifs aident à construire des dents et des os solides.",
-    "generated": "2025-01-18T05:30:21.068Z",
+    "text": "Nutrition. Manger des aliments sains qui rendent tes dents fortes",
+    "generated": "2025-01-18T21:30:45.510Z",
     "voice": "Antoni"
   },
   "fr/o": {
-    "text": "Orthodontiste. Les orthodontistes aident à redresser les dents pour des sourires parfaits.",
-    "generated": "2025-01-18T05:30:23.767Z",
+    "text": "Orthodontiste. Un dentiste spécial qui aide à redresser les dents tordues",
+    "generated": "2025-01-18T21:30:48.114Z",
     "voice": "Antoni"
   },
   "fr/p": {
-    "text": "Plaque. La plaque est une substance collante qu'il faut brosser.",
-    "generated": "2025-01-18T05:30:26.266Z",
+    "text": "Patient. Quelqu'un qui visite le dentiste pour prendre soin de ses dents",
+    "generated": "2025-01-18T21:30:50.590Z",
     "voice": "Antoni"
   },
   "fr/q": {
-    "text": "Rapide. Les contrôles rapides aident à détecter les problèmes tôt !",
-    "generated": "2025-01-18T05:30:29.053Z",
+    "text": "Quadrant. Une des quatre parties de ta bouche (haut droite, haut gauche, bas droite, bas gauche)",
+    "generated": "2025-01-18T21:30:54.012Z",
     "voice": "Antoni"
   },
   "fr/r": {
-    "text": "Rincer. Se rincer avec de l'eau aide à garder notre bouche propre.",
-    "generated": "2025-01-18T05:30:31.598Z",
+    "text": "Traitement de racine. Une façon spéciale de réparer une dent qui a une grosse carie",
+    "generated": "2025-01-18T21:30:57.472Z",
     "voice": "Antoni"
   },
   "fr/s": {
-    "text": "Sourire. Les sourires sont la meilleure façon de partager le bonheur !",
-    "generated": "2025-01-18T05:30:34.253Z",
+    "text": "Microbes du Sucre. Des petits microbes qui peuvent abîmer tes dents si tu ne les brosses pas",
+    "generated": "2025-01-18T21:31:00.269Z",
     "voice": "Antoni"
   },
   "fr/t": {
-    "text": "Langue. La langue nous aide à goûter les aliments et à garder notre bouche propre.",
-    "generated": "2025-01-18T05:30:37.082Z",
+    "text": "Dents. Les parties dures et blanches dans ta bouche qui t'aident à manger et à sourire",
+    "generated": "2025-01-18T21:31:02.959Z",
     "voice": "Antoni"
   },
   "fr/u": {
-    "text": "Ultrasonique. Le nettoyage ultrasonique aide à rendre les dents étincelantes !",
-    "generated": "2025-01-18T05:30:39.947Z",
+    "text": "Dent incluse. Une dent qui n'a pas encore percé à travers tes gencives",
+    "generated": "2025-01-18T21:31:05.465Z",
     "voice": "Antoni"
   },
   "fr/v": {
-    "text": "Vitamines. Les vitamines aident nos dents à rester fortes et saines.",
-    "generated": "2025-01-18T05:30:42.788Z",
+    "text": "Vernis. Une peinture spéciale de vitamines qui rend tes dents plus fortes",
+    "generated": "2025-01-18T21:31:08.436Z",
     "voice": "Antoni"
   },
   "fr/w": {
-    "text": "Sagesse. Les dents de sagesse sont les dernières dents à pousser dans notre bouche.",
-    "generated": "2025-01-18T05:30:45.499Z",
+    "text": "Blanchiment. Rendre tes dents brillantes et propres",
+    "generated": "2025-01-18T21:31:11.406Z",
     "voice": "Antoni"
   },
   "fr/x": {
-    "text": "Rayon X. Les rayons X aident les dentistes à voir à l'intérieur de nos dents.",
-    "generated": "2025-01-18T05:30:48.344Z",
+    "text": "Rayon X. Une photo spéciale qui permet au dentiste de voir à l'intérieur de tes dents",
+    "generated": "2025-01-18T21:31:14.127Z",
     "voice": "Antoni"
   },
   "fr/y": {
-    "text": "Annuel. Les visites annuelles chez le dentiste gardent nos sourires éclatants !",
-    "generated": "2025-01-18T05:30:51.023Z",
+    "text": "Jaunissement. Quand les dents perdent leur couleur blanche éclatante",
+    "generated": "2025-01-18T21:31:16.743Z",
     "voice": "Antoni"
   },
   "fr/z": {
-    "text": "Zinc. Le zinc est un minéral qui aide à garder nos dents fortes.",
-    "generated": "2025-01-18T05:30:56.939Z",
+    "text": "Zircone. Un matériau blanc spécial utilisé pour réparer les dents cassées",
+    "generated": "2025-01-18T21:31:19.381Z",
     "voice": "Antoni"
   },
   "zh/a": {
-    "text": "排列. 整齐的牙齿帮助你拥有美丽健康的笑容！",
-    "generated": "2025-01-18T05:30:59.487Z",
+    "text": "预约. 去看牙医检查牙齿的特别时间",
+    "generated": "2025-01-18T21:31:21.762Z",
     "voice": "Michael"
   },
   "zh/b": {
-    "text": "刷牙. 每天刷牙两次，远离蛀牙！",
-    "generated": "2025-01-18T05:31:01.868Z",
+    "text": "刷牙. 用牙刷清洁牙齿，让它们保持健康和闪亮",
+    "generated": "2025-01-18T21:31:24.267Z",
     "voice": "Michael"
   },
   "zh/c": {
@@ -440,8 +440,8 @@
     "voice": "Michael"
   },
   "zh/k": {
-    "text": "友善. 友善的微笑让每个人都感到快乐和受欢迎！",
-    "generated": "2025-01-18T05:31:24.927Z",
+    "text": "儿童. 像你一样正在学习如何保护牙齿的小朋友",
+    "generated": "2025-01-18T21:31:26.861Z",
     "voice": "Michael"
   },
   "zh/l": {
@@ -465,43 +465,43 @@
     "voice": "Michael"
   },
   "zh/p": {
-    "text": "牙菌斑. 牙菌斑是需要刷掉的粘性物质。",
-    "generated": "2025-01-18T05:31:37.774Z",
+    "text": "就诊者. 去看牙医照顾牙齿的人",
+    "generated": "2025-01-18T21:31:29.345Z",
     "voice": "Michael"
   },
   "zh/q": {
-    "text": "快速. 及时检查有助于早期发现问题！",
-    "generated": "2025-01-18T05:31:40.162Z",
+    "text": "象限. 口腔的四个部分（上右、上左、下右、下左）",
+    "generated": "2025-01-18T21:31:33.018Z",
     "voice": "Michael"
   },
   "zh/r": {
-    "text": "漱口. 用水漱口有助于保持口腔清洁。",
-    "generated": "2025-01-18T05:31:42.593Z",
+    "text": "根管治疗. 一种治疗有大蛀洞的牙齿的特殊方法",
+    "generated": "2025-01-18T21:31:35.672Z",
     "voice": "Michael"
   },
   "zh/s": {
-    "text": "微笑. 微笑是分享快乐的最好方式！",
-    "generated": "2025-01-18T05:31:45.081Z",
+    "text": "蛀牙细菌. 小小的细菌，如果不刷牙就会伤害你的牙齿",
+    "generated": "2025-01-18T21:31:38.318Z",
     "voice": "Michael"
   },
   "zh/t": {
-    "text": "舌头. 舌头帮助我们品尝食物并保持口腔清洁。",
-    "generated": "2025-01-18T05:31:47.720Z",
+    "text": "牙齿. 牙齿是口腔中坚硬白色的部分，帮助你咀嚼和微笑。",
+    "generated": "2025-01-18T21:31:41.379Z",
     "voice": "Michael"
   },
   "zh/u": {
-    "text": "超声波. 超声波清洁帮助牙齿变得闪亮干净！",
-    "generated": "2025-01-18T05:31:50.178Z",
+    "text": "未萌出的牙齿. 还没有从牙龈里长出来的牙齿",
+    "generated": "2025-01-18T21:31:44.484Z",
     "voice": "Michael"
   },
   "zh/v": {
-    "text": "维生素. 维生素帮助我们的牙齿保持强壮和健康。",
-    "generated": "2025-01-18T05:31:52.821Z",
+    "text": "氟化物. 一种特殊的维生素涂料，可以让你的牙齿变得更坚固",
+    "generated": "2025-01-18T21:31:47.155Z",
     "voice": "Michael"
   },
   "zh/w": {
-    "text": "智齿. 智齿是最后长出来的牙齿。",
-    "generated": "2025-01-18T05:31:55.223Z",
+    "text": "美白. 让你的牙齿看起来明亮洁白",
+    "generated": "2025-01-18T21:31:49.431Z",
     "voice": "Michael"
   },
   "zh/x": {
@@ -510,23 +510,23 @@
     "voice": "Michael"
   },
   "zh/y": {
-    "text": "年度. 每年看牙医让我们的笑容保持灿烂！",
-    "generated": "2025-01-18T05:32:00.064Z",
+    "text": "发黄. 当牙齿失去洁白的颜色时",
+    "generated": "2025-01-18T21:31:51.762Z",
     "voice": "Michael"
   },
   "zh/z": {
-    "text": "锌. 锌是帮助保持牙齿强壮的矿物质。",
-    "generated": "2025-01-18T05:32:02.450Z",
+    "text": "锆石. 一种特殊的白色材料，用来修复受损的牙齿",
+    "generated": "2025-01-18T21:31:54.218Z",
     "voice": "Michael"
   },
   "ja/a": {
-    "text": "歯並び. 歯並びを整えることで、美しく健康的な笑顔になります！",
-    "generated": "2025-01-18T05:32:05.265Z",
+    "text": "歯医者さんの予約. お口の健康チェックのために歯医者さんに行く特別な時間です",
+    "generated": "2025-01-18T21:31:57.219Z",
     "voice": "Elli"
   },
   "ja/b": {
-    "text": "歯磨き. 一日二回の歯磨きで、むし歯を予防しましょう！",
-    "generated": "2025-01-18T05:32:07.923Z",
+    "text": "歯磨き. 歯ブラシでお口の中をキレイにして、健康でピカピカの歯にしましょう",
+    "generated": "2025-01-18T21:32:00.060Z",
     "voice": "Elli"
   },
   "ja/c": {
@@ -570,8 +570,8 @@
     "voice": "Elli"
   },
   "ja/k": {
-    "text": "親切. 優しい笑顔は、みんなを幸せで温かい気持ちにします！",
-    "generated": "2025-01-18T05:32:33.073Z",
+    "text": "お子さま. あなたのように、お口のケアの仕方を学んでいる小さなお友達のことです",
+    "generated": "2025-01-18T21:32:02.893Z",
     "voice": "Elli"
   },
   "ja/l": {
@@ -595,43 +595,43 @@
     "voice": "Elli"
   },
   "ja/p": {
-    "text": "歯垢. 歯垢は歯ブラシで落とさなければならない粘着物です。",
-    "generated": "2025-01-18T05:32:47.168Z",
+    "text": "患者さん. お口のケアのために歯医者さんに来る人のことです",
+    "generated": "2025-01-18T21:32:05.445Z",
     "voice": "Elli"
   },
   "ja/q": {
-    "text": "早期. 早期の検査で問題を早く見つけることができます！",
-    "generated": "2025-01-18T05:32:49.886Z",
+    "text": "象限. 口の四つの部分（上右、上左、下右、下左）",
+    "generated": "2025-01-18T21:32:08.422Z",
     "voice": "Elli"
   },
   "ja/r": {
-    "text": "うがい. 水でうがいをすると口の中を清潔に保てます。",
-    "generated": "2025-01-18T05:32:52.454Z",
+    "text": "神経の治療. 神経の治療は深いむし歯を治療する特殊な方法です",
+    "generated": "2025-01-18T21:32:11.378Z",
     "voice": "Elli"
   },
   "ja/s": {
-    "text": "笑顔. 笑顔は幸せを分かち合う一番いい方法です！",
-    "generated": "2025-01-18T05:32:55.260Z",
+    "text": "むし歯バイキン. 歯磨きをしないとお口の中で歯を痛める小さなバイキンたちです",
+    "generated": "2025-01-18T21:32:14.270Z",
     "voice": "Elli"
   },
   "ja/t": {
-    "text": "舌. 舌は食べ物の味を感じたり、口の中を清潔に保ったりします。",
-    "generated": "2025-01-18T05:32:57.950Z",
+    "text": "歯. 歯は口の中にある白くて硬い部分です。食べ物を噛んだり、笑ったりするのを助けます。",
+    "generated": "2025-01-18T21:32:17.276Z",
     "voice": "Elli"
   },
   "ja/u": {
-    "text": "超音波. 超音波クリーニングで歯がピカピカになります！",
-    "generated": "2025-01-18T05:33:00.548Z",
+    "text": "生えかけの歯. まだお口の中に顔を出していない、歯ぐきの中の歯のことです",
+    "generated": "2025-01-18T21:32:20.223Z",
     "voice": "Elli"
   },
   "ja/v": {
-    "text": "ビタミン. ビタミンは歯を丈夫で健康に保ちます。",
-    "generated": "2025-01-18T05:33:03.192Z",
+    "text": "フッ素. フッ素は歯を丈夫にするビタミンペイントです",
+    "generated": "2025-01-18T21:32:22.638Z",
     "voice": "Elli"
   },
   "ja/w": {
-    "text": "親知らず. 親知らずは最後に生えてくる歯です。",
-    "generated": "2025-01-18T05:33:05.574Z",
+    "text": "ホワイトニング. お歯黒をピカピカに白くきれいにすることです",
+    "generated": "2025-01-18T21:32:25.471Z",
     "voice": "Elli"
   },
   "ja/x": {
@@ -640,23 +640,23 @@
     "voice": "Elli"
   },
   "ja/y": {
-    "text": "年一回. 年一回の歯医者さん検診で笑顔を輝かせましょう！",
-    "generated": "2025-01-18T05:33:10.848Z",
+    "text": "歯の黄ばみ. お歯黒が白くピカピカな色を失ってしまうことです",
+    "generated": "2025-01-18T21:32:28.141Z",
     "voice": "Elli"
   },
   "ja/z": {
-    "text": "亜鉛. 亜鉛は歯を丈夫に保つミネラルです。",
-    "generated": "2025-01-18T05:33:13.417Z",
+    "text": "ジルコニア. 欠けた歯を直すための特別な白い材料です",
+    "generated": "2025-01-18T21:32:30.654Z",
     "voice": "Elli"
   },
   "ko/a": {
-    "text": "치아배열. 치아를 바르게 정렬하면 아름답고 건강한 미소를 만들 수 있어요!",
-    "generated": "2025-01-18T05:33:16.209Z",
+    "text": "치과 예약. 치과 선생님께 치아를 검진받으러 가는 특별한 시간이에요",
+    "generated": "2025-01-18T21:32:33.437Z",
     "voice": "Sam"
   },
   "ko/b": {
-    "text": "칫솔질. 하루에 두 번 칫솔질하면 충치를 예방할 수 있어요!",
-    "generated": "2025-01-18T05:33:18.858Z",
+    "text": "칫솔질. 칫솔로 치아를 깨끗하게 닦아서 건강하고 반짝반짝하게 만들어요",
+    "generated": "2025-01-18T21:32:36.300Z",
     "voice": "Sam"
   },
   "ko/c": {
@@ -700,8 +700,8 @@
     "voice": "Sam"
   },
   "ko/k": {
-    "text": "친절. 친절한 미소는 모든 사람을 행복하고 환영받는 기분이 들게 해요!",
-    "generated": "2025-01-18T05:33:44.766Z",
+    "text": "어린이. 어린이들은 여러분처럼 치아 관리하는 법을 배우고 있는 어린 친구들이에요",
+    "generated": "2025-01-18T21:32:39.088Z",
     "voice": "Sam"
   },
   "ko/l": {
@@ -725,43 +725,43 @@
     "voice": "Sam"
   },
   "ko/p": {
-    "text": "치태. 치태는 칫솔로 닦아내야 하는 끈적끈적한 것이에요.",
-    "generated": "2025-01-18T05:33:59.108Z",
+    "text": "환자. 환자는 치과 선생님에게 방문하는 사람입니다.",
+    "generated": "2025-01-18T21:32:41.830Z",
     "voice": "Sam"
   },
   "ko/q": {
-    "text": "빠른. 빠른 검진은 문제를 일찍 발견하는 데 도움이 돼요!",
-    "generated": "2025-01-18T05:34:01.808Z",
+    "text": "사분면. 입의 네 부분 (위 우측, 위 좌측, 아래 우측, 아래 좌측)",
+    "generated": "2025-01-18T21:32:45.011Z",
     "voice": "Sam"
   },
   "ko/r": {
-    "text": "양치. 물로 양치하면 입안을 깨끗하게 유지할 수 있어요.",
-    "generated": "2025-01-18T05:34:04.376Z",
+    "text": "신경치료. 신경치료는 깊은 충치를 치료하는 특별한 방법입니다.",
+    "generated": "2025-01-18T21:32:48.066Z",
     "voice": "Sam"
   },
   "ko/s": {
-    "text": "미소. 미소는 행복을 나누는 가장 좋은 방법이에요!",
-    "generated": "2025-01-18T05:34:06.913Z",
+    "text": "충치균. 이를 닦지 않으면 치아를 아프게 하는 아주 작은 세균이에요",
+    "generated": "2025-01-18T21:32:50.703Z",
     "voice": "Sam"
   },
   "ko/t": {
-    "text": "혀. 혀는 음식의 맛을 느끼고 입안을 깨끗하게 유지하는 것을 도와줘요.",
-    "generated": "2025-01-18T05:34:09.692Z",
+    "text": "치아. 치아는 입 안에 있는 하얀 부분으로, 음식을 씹고 웃는 데 도움을 줍니다.",
+    "generated": "2025-01-18T21:32:53.605Z",
     "voice": "Sam"
   },
   "ko/u": {
-    "text": "초음파. 초음파 세척은 치아를 반짝반짝 깨끗하게 만들어줘요!",
-    "generated": "2025-01-18T05:34:12.320Z",
+    "text": "미맹출 치아. 미맹출 치아는 아직 잇몸을 뚫고 나오지 않은 치아를 말해요",
+    "generated": "2025-01-18T21:32:56.378Z",
     "voice": "Sam"
   },
   "ko/v": {
-    "text": "비타민. 비타민은 우리의 치아를 튼튼하고 건강하게 유지해줘요.",
-    "generated": "2025-01-18T05:34:14.960Z",
+    "text": "불소 도포. 불소 도포는 치아를 더 튼튼하게 만들어주는 특별한 비타민 칠을 해요",
+    "generated": "2025-01-18T21:32:59.328Z",
     "voice": "Sam"
   },
   "ko/w": {
-    "text": "사랑니. 사랑니는 우리 입에서 마지막으로 나는 치아예요.",
-    "generated": "2025-01-18T05:34:17.604Z",
+    "text": "치아미백. 치아를 밝고 깨끗하게 만들어주는 것이에요",
+    "generated": "2025-01-18T21:33:01.898Z",
     "voice": "Sam"
   },
   "ko/x": {
@@ -770,23 +770,23 @@
     "voice": "Sam"
   },
   "ko/y": {
-    "text": "연간. 일 년에 한 번 치과 검진으로 우리의 미소를 밝게 유지해요!",
-    "generated": "2025-01-18T05:34:23.192Z",
+    "text": "치아 변색. 치아가 하얗고 반짝이는 색을 잃어버리는 것이에요",
+    "generated": "2025-01-18T21:33:04.663Z",
     "voice": "Sam"
   },
   "ko/z": {
-    "text": "아연. 아연은 우리의 치아를 튼튼하게 유지하는 데 도움을 주는 미네랄이에요.",
-    "generated": "2025-01-18T05:34:26.058Z",
+    "text": "지르코니아. 부러진 치아를 고치는 데 사용하는 특별한 하얀 재료예요",
+    "generated": "2025-01-18T21:33:07.506Z",
     "voice": "Sam"
   },
   "vi/a": {
-    "text": "Sắp xếp. Sắp xếp răng đều giúp tạo nên nụ cười đẹp và khỏe mạnh!",
-    "generated": "2025-01-18T05:34:28.690Z",
+    "text": "Cuộc hẹn. Thời gian đặc biệt khi bạn đến gặp nha sĩ để kiểm tra răng",
+    "generated": "2025-01-18T21:33:10.630Z",
     "voice": "Josh"
   },
   "vi/b": {
-    "text": "Đánh răng. Đánh răng hai lần mỗi ngày giúp phòng tránh sâu răng!",
-    "generated": "2025-01-18T05:34:31.615Z",
+    "text": "Đánh răng. Dùng bàn chải để làm sạch răng, giúp răng khỏe mạnh và sáng bóng",
+    "generated": "2025-01-18T21:33:13.459Z",
     "voice": "Josh"
   },
   "vi/c": {
@@ -830,8 +830,8 @@
     "voice": "Josh"
   },
   "vi/k": {
-    "text": "Tử tế. Nụ cười tử tế làm cho mọi người cảm thấy vui vẻ và được chào đón!",
-    "generated": "2025-01-18T05:34:56.475Z",
+    "text": "Trẻ em. Nụ cười tử tế làm cho mọi người cảm thấy vui vẻ và được chào đón!",
+    "generated": "2025-01-18T21:33:16.215Z",
     "voice": "Josh"
   },
   "vi/l": {
@@ -855,43 +855,43 @@
     "voice": "Josh"
   },
   "vi/p": {
-    "text": "Cao răng. Cao răng là chất dính cần được đánh răng để loại bỏ.",
-    "generated": "2025-01-18T05:35:11.862Z",
+    "text": "Bệnh nhân. Bệnh nhân là người đến khám răng.",
+    "generated": "2025-01-18T21:33:18.596Z",
     "voice": "Josh"
   },
   "vi/q": {
-    "text": "Nhanh chóng. Kiểm tra nhanh giúp phát hiện sớm các vấn đề!",
-    "generated": "2025-01-18T05:35:14.558Z",
+    "text": "Góc phần tư. Một trong bốn phần của miệng (trên phải, trên trái, dưới phải, dưới trái)",
+    "generated": "2025-01-18T21:33:21.968Z",
     "voice": "Josh"
   },
   "vi/r": {
-    "text": "Súc miệng. Súc miệng bằng nước giúp giữ miệng sạch sẽ.",
-    "generated": "2025-01-18T05:35:19.370Z",
+    "text": "Điều trị tủy răng. Một cách đặc biệt để chữa răng bị sâu nặng",
+    "generated": "2025-01-18T21:33:25.149Z",
     "voice": "Josh"
   },
   "vi/s": {
-    "text": "Nụ cười. Nụ cười là cách tốt nhất để chia sẻ niềm vui!",
-    "generated": "2025-01-18T05:35:22.330Z",
+    "text": "Vi khuẩn sâu răng. Những vi khuẩn nhỏ xíu có thể làm hại răng nếu không đánh răng sạch",
+    "generated": "2025-01-18T21:33:28.124Z",
     "voice": "Josh"
   },
   "vi/t": {
-    "text": "Lưỡi. Lưỡi giúp chúng ta nếm thức ăn và giữ miệng sạch sẽ.",
-    "generated": "2025-01-18T05:35:24.748Z",
+    "text": "Răng. Răng là những phần trắng và cứng trong miệng giúp chúng ta nhai thức ăn và cười.",
+    "generated": "2025-01-18T21:33:30.884Z",
     "voice": "Josh"
   },
   "vi/u": {
-    "text": "Siêu âm. Làm sạch bằng siêu âm giúp răng sạch bóng!",
-    "generated": "2025-01-18T05:35:27.432Z",
+    "text": "Răng chưa mọc. Một chiếc răng chưa nhú ra khỏi nướu của bạn",
+    "generated": "2025-01-18T21:33:33.258Z",
     "voice": "Josh"
   },
   "vi/v": {
-    "text": "Vitamin. Vitamin giúp răng chúng ta chắc khỏe.",
-    "generated": "2025-01-18T05:35:30.037Z",
+    "text": "Véc-ni răng. Một loại sơn vitamin đặc biệt giúp răng bạn chắc khỏe hơn",
+    "generated": "2025-01-18T21:33:35.995Z",
     "voice": "Josh"
   },
   "vi/w": {
-    "text": "Răng khôn. Răng khôn là những chiếc răng mọc sau cùng trong miệng chúng ta.",
-    "generated": "2025-01-18T05:35:33.354Z",
+    "text": "Tẩy trắng. Làm cho răng của bạn trông sáng và sạch",
+    "generated": "2025-01-18T21:33:38.765Z",
     "voice": "Josh"
   },
   "vi/x": {
@@ -900,13 +900,13 @@
     "voice": "Josh"
   },
   "vi/y": {
-    "text": "Hàng năm. Thăm khám nha sĩ hàng năm giúp nụ cười của chúng ta tươi sáng!",
-    "generated": "2025-01-18T05:35:39.601Z",
+    "text": "Răng ố vàng. Khi răng không còn trắng sáng nữa",
+    "generated": "2025-01-18T21:33:41.361Z",
     "voice": "Josh"
   },
   "vi/z": {
-    "text": "Kẽm. Kẽm là khoáng chất giúp răng chúng ta chắc khỏe.",
-    "generated": "2025-01-18T05:35:42.116Z",
+    "text": "Zirconia. Một loại vật liệu trắng đặc biệt dùng để sửa răng bị vỡ",
+    "generated": "2025-01-18T21:33:44.289Z",
     "voice": "Josh"
   }
 }

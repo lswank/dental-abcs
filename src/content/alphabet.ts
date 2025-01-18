@@ -86,7 +86,7 @@ export const alphabetContent: AlphabetEntry[] = [
       vi: "Nha sĩ"
     },
     sentence: {
-      en: "A tooth doctor who helps keep your smile bright and healthy",
+      en: "A doctor that helps your teeth get strong and healthy",
       es: "Un doctor de dientes que ayuda a mantener tu sonrisa brillante y saludable",
       fr: "Un docteur des dents qui aide à garder ton sourire éclatant et en bonne santé",
       zh: "牙医是帮助我们保持牙齿健康的友好医生。",
