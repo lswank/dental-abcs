@@ -14,19 +14,19 @@ export const alphabetContent: AlphabetEntry[] = [
       en: "Appointment",
       es: "Cita",
       fr: "Rendez-vous",
-      zh: "排列",
-      ja: "歯並び",
-      ko: "치아배열",
-      vi: "Sắp xếp"
+      zh: "预约",
+      ja: "歯医者さんの予約",
+      ko: "치과 예약",
+      vi: "Cuộc hẹn"
     },
     sentence: {
       en: "A special time when you visit the dentist to check your teeth",
       es: "Un momento especial cuando visitas al dentista para revisar tus dientes",
       fr: "Un moment spécial où tu visites le dentiste pour vérifier tes dents",
-      zh: "整齐的牙齿帮助你拥有美丽健康的笑容！",
-      ja: "歯並びを整えることで、美しく健康的な笑顔になります！",
-      ko: "치아를 바르게 정렬하면 아름답고 건강한 미소를 만들 수 있어요!",
-      vi: "Sắp xếp răng đều giúp tạo nên nụ cười đẹp và khỏe mạnh!"
+      zh: "去看牙医检查牙齿的特别时间",
+      ja: "お口の健康チェックのために歯医者さんに行く特別な時間です",
+      ko: "치과 선생님께 치아를 검진받으러 가는 특별한 시간이에요",
+      vi: "Thời gian đặc biệt khi bạn đến gặp nha sĩ để kiểm tra răng"
     },
     animation: "dentist-visit"
   },
@@ -234,18 +234,18 @@ export const alphabetContent: AlphabetEntry[] = [
       en: "Kids",
       es: "Niños",
       fr: "Enfants",
-      zh: "友善",
-      ja: "親切",
-      ko: "친절",
-      vi: "Tử tế"
+      zh: "儿童",
+      ja: "お子さま",
+      ko: "어린이",
+      vi: "Trẻ em"
     },
     sentence: {
       en: "Young people like you who are learning to take care of their teeth",
       es: "Personas jóvenes como tú que están aprendiendo a cuidar sus dientes",
       fr: "Les jeunes comme toi qui apprennent à prendre soin de leurs dents",
-      zh: "友善的微笑让每个人都感到快乐和受欢迎！",
-      ja: "優しい笑顔は、みんなを幸せで温かい気持ちにします！",
-      ko: "친절한 미소는 모든 사람을 행복하고 환영받는 기분이 들게 해요!",
+      zh: "像你一样正在学习如何保护牙齿的小朋友",
+      ja: "あなたのように、お口のケアの仕方を学んでいる小さなお友達のことです",
+      ko: "어린이들은 여러분처럼 치아 관리하는 법을 배우고 있는 어린 친구들이에요",
       vi: "Nụ cười tử tế làm cho mọi người cảm thấy vui vẻ và được chào đón!"
     },
     animation: "kids"
@@ -344,8 +344,8 @@ export const alphabetContent: AlphabetEntry[] = [
       en: "Patient",
       es: "Paciente",
       fr: "Patient",
-      zh: "患者",
-      ja: "患者",
+      zh: "就诊者",
+      ja: "患者さん",
       ko: "환자",
       vi: "Bệnh nhân"
     },
@@ -353,8 +353,8 @@ export const alphabetContent: AlphabetEntry[] = [
       en: "Someone who visits the dentist for tooth care",
       es: "Alguien que visita al dentista para el cuidado de sus dientes",
       fr: "Quelqu'un qui visite le dentiste pour prendre soin de ses dents",
-      zh: "患者是去看牙医的人。",
-      ja: "患者は歯医者さんに訪れる人です。",
+      zh: "去看牙医照顾牙齿的人",
+      ja: "お口のケアのために歯医者さんに来る人のことです",
       ko: "환자는 치과 선생님에게 방문하는 사람입니다.",
       vi: "Bệnh nhân là người đến khám răng."
     },
@@ -389,18 +389,18 @@ export const alphabetContent: AlphabetEntry[] = [
       es: "Conducto radicular",
       fr: "Traitement de racine",
       zh: "根管治疗",
-      ja: "根管治療",
-      ko: "뿌리 치료",
-      vi: "Chụp răng"
+      ja: "神経の治療",
+      ko: "신경치료",
+      vi: "Điều trị tủy răng"
     },
     sentence: {
       en: "A special way to fix a tooth that has a big cavity",
       es: "Una forma especial de arreglar un diente que tiene una caries grande",
       fr: "Une façon spéciale de réparer une dent qui a une grosse carie",
-      zh: "根管治疗是治疗牙齿深部蛀牙的特殊方法。",
-      ja: "根管治療は深いむし歯を治療する特殊な方法です。",
-      ko: "뿌리 치료는 깊은 충치를 치료하는 특별한 방법입니다.",
-      vi: "Chụp răng là phương pháp đặc biệt để điều trị răng có sâu răng."
+      zh: "一种治疗有大蛀洞的牙齿的特殊方法",
+      ja: "神経の治療は深いむし歯を治療する特殊な方法です",
+      ko: "신경치료는 깊은 충치를 치료하는 특별한 방법입니다.",
+      vi: "Một cách đặc biệt để chữa răng bị sâu nặng"
     },
     animation: "root-canal"
   },
@@ -410,19 +410,19 @@ export const alphabetContent: AlphabetEntry[] = [
       en: "Sugar Bugs",
       es: "Bichitos del Azúcar",
       fr: "Microbes du Sucre",
-      zh: "糖虫",
-      ja: "糖虫",
-      ko: "설탕 벌레",
-      vi: "Ruồi đường"
+      zh: "蛀牙细菌",
+      ja: "むし歯菌",
+      ko: "충치균",
+      vi: "Vi khuẩn đường"
     },
     sentence: {
       en: "Tiny germs that can hurt your teeth if you don't brush them away",
       es: "Pequeños gérmenes que pueden dañar tus dientes si no los cepillas",
       fr: "Des petits microbes qui peuvent abîmer tes dents si tu ne les brosses pas",
-      zh: "糖虫是微小的昆虫，如果你不刷牙，它们可能会伤害你的牙齿。",
-      ja: "糖虫は小さな昆虫です。むし歯を取り除かないと、歯を傷める可能性があります。",
-      ko: "설탕 벌레는 작은 벌레로, 칫솔을 닦지 않으면 치아를 손상시킬 수 있습니다.",
-      vi: "Ruồi đường là những con ruồi nhỏ, nếu chúng ta không đánh răng, chúng có thể gây hại cho răng."
+      zh: "如果不刷牙，这些小细菌会伤害你的牙齿",
+      ja: "むし歯菌は小さな細菌です。歯磨きをしないと歯を痛めてしまう可能性があります。",
+      ko: "충치균은 작은 세균으로, 칫솔을 닦지 않으면 치아를 아프게 할 수 있는 아주 작은 세균이에요",
+      vi: "Những vi khuẩn nhỏ có thể làm hại răng nếu bạn không đánh răng sạch"
     },
     animation: "sugar-bugs"
   },
@@ -455,18 +455,18 @@ export const alphabetContent: AlphabetEntry[] = [
       es: "Diente no erupcionado",
       fr: "Dent incluse",
       zh: "未萌出的牙齿",
-      ja: "未萌出の歯",
-      ko: "미모치",
+      ja: "生えかけの歯",
+      ko: "미맹출 치아",
       vi: "Răng chưa mọc"
     },
     sentence: {
       en: "A tooth that hasn't poked through your gums yet",
       es: "Un diente que todavía no ha salido a través de tus encías",
       fr: "Une dent qui n'a pas encore percé à travers tes gencives",
-      zh: "未萌出的牙齿是尚未穿出牙龈的牙齿。",
-      ja: "未萌出の歯は歯の中に出ていない歯です。",
-      ko: "미모치는 치아 속에 나오지 않은 치아입니다.",
-      vi: "Răng chưa mọc là những chiếc răng chưa mọc ra khỏi răng."
+      zh: "还没有从牙龈里长出来的牙齿",
+      ja: "まだお口の中に顔を出していない、歯ぐきの中の歯のことです",
+      ko: "미맹출 치아는 아직 잇몸을 뚫고 나오지 않은 치아를 말해요",
+      vi: "Một chiếc răng chưa nhú ra khỏi nướu của bạn"
     },
     animation: "unerupted-tooth"
   },
@@ -476,19 +476,19 @@ export const alphabetContent: AlphabetEntry[] = [
       en: "Varnish",
       es: "Barniz",
       fr: "Vernis",
-      zh: "釉质",
-      ja: "エナメル",
-      ko: "법랑질",
-      vi: "Men răng"
+      zh: "氟化物",
+      ja: "フッ素",
+      ko: "불소 도포",
+      vi: "Véc-ni răng"
     },
     sentence: {
       en: "A special vitamin paint that makes your teeth stronger",
       es: "Una pintura especial de vitaminas que hace tus dientes más fuertes",
       fr: "Une peinture spéciale de vitamines qui rend tes dents plus fortes",
-      zh: "釉质是帮助牙齿变强的特殊维生素涂料。",
-      ja: "エナメルは歯を丈夫にするビタミンペイントです。",
-      ko: "법랑질은 치아를 더 단단하게 만드는 비타민 페인트입니다.",
-      vi: "Men răng là sơn men vitamin giúp răng chúng ta chắc khỏe."
+      zh: "一种特殊的维生素涂料，可以让你的牙齿变得更坚固",
+      ja: "フッ素は歯を丈夫にするビタミンペイントです",
+      ko: "불소 도포는 치아를 더 튼튼하게 만들어주는 특별한 비타민 칠을 해요",
+      vi: "Một loại sơn vitamin đặc biệt giúp răng bạn chắc khỏe hơn"
     },
     animation: "varnish"
   },
@@ -499,18 +499,18 @@ export const alphabetContent: AlphabetEntry[] = [
       es: "Blanqueamiento",
       fr: "Blanchiment",
       zh: "美白",
-      ja: "美白",
-      ko: "치아 미백",
-      vi: "Làm sáng"
+      ja: "ホワイトニング",
+      ko: "치아미백",
+      vi: "Tẩy trắng"
     },
     sentence: {
       en: "Making your teeth look bright and clean",
       es: "Hacer que tus dientes se vean brillantes y limpios",
       fr: "Rendre tes dents brillantes et propres",
-      zh: "让牙齿看起来更白更干净",
-      ja: "歯を白くして、美しくします。",
-      ko: "치아를 밝게 하고 깨끗하게 만들어요.",
-      vi: "Làm sáng răng để chúng trông sáng bóng và sạch sẽ."
+      zh: "让你的牙齿看起来明亮洁白",
+      ja: "お歯黒をピカピカに白くきれいにすることです",
+      ko: "치아를 밝고 깨끗하게 만들어주는 것이에요",
+      vi: "Làm cho răng của bạn trông sáng và sạch"
     },
     animation: "whitening"
   },
