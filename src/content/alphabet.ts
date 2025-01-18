@@ -45,10 +45,10 @@ export const alphabetContent: AlphabetEntry[] = [
       en: "Using a toothbrush to clean your teeth to keep them healthy and shiny",
       es: "Usar un cepillo de dientes para limpiar tus dientes y mantenerlos sanos y brillantes",
       fr: "Utiliser une brosse à dents pour nettoyer tes dents et les garder saines et brillantes",
-      zh: "每天刷牙两次，远离蛀牙！",
-      ja: "一日二回の歯磨きで、むし歯を予防しましょう！",
-      ko: "하루에 두 번 칫솔질하면 충치를 예방할 수 있어요!",
-      vi: "Đánh răng hai lần mỗi ngày giúp phòng tránh sâu răng!"
+      zh: "用牙刷清洁牙齿，让它们保持健康和闪亮",
+      ja: "歯ブラシでお口の中をキレイにして、健康でピカピカの歯にしましょう",
+      ko: "칫솔로 치아를 깨끗하게 닦아서 건강하고 반짝반짝하게 만들어요",
+      vi: "Dùng bàn chải để làm sạch răng, giúp răng khỏe mạnh và sáng bóng"
     },
     animation: "brushing"
   },
@@ -411,18 +411,18 @@ export const alphabetContent: AlphabetEntry[] = [
       es: "Bichitos del Azúcar",
       fr: "Microbes du Sucre",
       zh: "蛀牙细菌",
-      ja: "むし歯菌",
+      ja: "むし歯バイキン",
       ko: "충치균",
-      vi: "Vi khuẩn đường"
+      vi: "Vi khuẩn sâu răng"
     },
     sentence: {
       en: "Tiny germs that can hurt your teeth if you don't brush them away",
       es: "Pequeños gérmenes que pueden dañar tus dientes si no los cepillas",
       fr: "Des petits microbes qui peuvent abîmer tes dents si tu ne les brosses pas",
-      zh: "如果不刷牙，这些小细菌会伤害你的牙齿",
-      ja: "むし歯菌は小さな細菌です。歯磨きをしないと歯を痛めてしまう可能性があります。",
-      ko: "충치균은 작은 세균으로, 칫솔을 닦지 않으면 치아를 아프게 할 수 있는 아주 작은 세균이에요",
-      vi: "Những vi khuẩn nhỏ có thể làm hại răng nếu bạn không đánh răng sạch"
+      zh: "小小的细菌，如果不刷牙就会伤害你的牙齿",
+      ja: "歯磨きをしないとお口の中で歯を痛める小さなバイキンたちです",
+      ko: "이를 닦지 않으면 치아를 아프게 하는 아주 작은 세균이에요",
+      vi: "Những vi khuẩn nhỏ xíu có thể làm hại răng nếu không đánh răng sạch"
     },
     animation: "sugar-bugs"
   },
@@ -542,19 +542,19 @@ export const alphabetContent: AlphabetEntry[] = [
       en: "Yellowing",
       es: "Amarillamiento",
       fr: "Jaunissement",
-      zh: "黄变",
-      ja: "黄変",
-      ko: "노란색 변화",
-      vi: "Ngả màu"
+      zh: "发黄",
+      ja: "歯の黄ばみ",
+      ko: "치아 변색",
+      vi: "Răng ố vàng"
     },
     sentence: {
       en: "When teeth lose their bright white color",
       es: "Cuando los dientes pierden su color blanco brillante",
       fr: "Quand les dents perdent leur couleur blanche éclatante",
-      zh: "当牙齿失去亮白色时",
-      ja: "歯が明るい白に変わるとき",
-      ko: "치아가 밝은 흰색에서 노란색으로 변하는 경우",
-      vi: "Khi răng mất màu trắng sáng"
+      zh: "当牙齿失去洁白的颜色时",
+      ja: "お歯黒が白くピカピカな色を失ってしまうことです",
+      ko: "치아가 하얗고 반짝이는 색을 잃어버리는 것이에요",
+      vi: "Khi răng không còn trắng sáng nữa"
     },
     animation: "yellowing"
   },
@@ -566,17 +566,17 @@ export const alphabetContent: AlphabetEntry[] = [
       fr: "Zircone",
       zh: "锆石",
       ja: "ジルコニア",
-      ko: "저식",
-      vi: "Kẽm"
+      ko: "지르코니아",
+      vi: "Zirconia"
     },
     sentence: {
       en: "A special white material used to fix broken teeth",
       es: "Un material blanco especial usado para arreglar dientes rotos",
       fr: "Un matériau blanc spécial utilisé pour réparer les dents cassées",
-      zh: "锆石是用于修复断裂牙齿的特殊白色材料。",
-      ja: "ジルコニアは歯を修理するために使用される白い素材です。",
-      ko: "저식은 치아를 수리하는 데 사용되는 흰색 재료입니다.",
-      vi: "Kẽm là vật liệu trắng đặc biệt được sử dụng để sửa chữa răng gãy."
+      zh: "一种特殊的白色材料，用来修复受损的牙齿",
+      ja: "欠けた歯を直すための特別な白い材料です",
+      ko: "부러진 치아를 고치는 데 사용하는 특별한 하얀 재료예요",
+      vi: "Một loại vật liệu trắng đặc biệt dùng để sửa răng bị vỡ"
     },
     animation: "zirconia"
   }
